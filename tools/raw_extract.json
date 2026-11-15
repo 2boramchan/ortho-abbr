@@ -1,0 +1,1338 @@
+[
+{
+"page": 9,
+"abbr": "ABC",
+"full": "Aneurysmal bone cyst",
+"sizes": [
+10.1
+]
+},
+{
+"page": 9,
+"abbr": "AC",
+"full": "Ankle Clonus",
+"sizes": [
+10.1
+]
+},
+{
+"page": 9,
+"abbr": "ACL",
+"full": "Anterior Cruciate Ligament",
+"sizes": [
+10.1
+]
+},
+{
+"page": 9,
+"abbr": "AJ",
+"full": "Ankle Jerk",
+"sizes": [
+10.1
+]
+},
+{
+"page": 9,
+"abbr": "AK",
+"full": "Above Knee",
+"sizes": [
+10.1
+]
+},
+{
+"page": 9,
+"abbr": "A-K Amputation",
+"full": "Above Knee Amputation",
+"sizes": [
+10.1
+]
+},
+{
+"page": 9,
+"abbr": "A-M Prosthesis",
+"full": "Austin Moore Prosthesis",
+"sizes": [
+10.1
+]
+},
+{
+"page": 9,
+"abbr": "Ant. Fusion",
+"full": "Anterior Fusion",
+"sizes": [
+10.1
+]
+},
+{
+"page": 9,
+"abbr": "AVN",
+"full": "Avascular Necrosis",
+"sizes": [
+10.1
+]
+},
+{
+"page": 9,
+"abbr": "BG",
+"full": "Bone graft",
+"sizes": [
+10.1
+]
+},
+{
+"page": 9,
+"abbr": "BJ",
+"full": "Biceps brachii jerk",
+"sizes": [
+10.1
+]
+},
+{
+"page": 9,
+"abbr": "BK",
+"full": "Below Knee",
+"sizes": [
+10.1
+]
+},
+{
+"page": 9,
+"abbr": "B-K Amputation",
+"full": "Below Knee Amputation",
+"sizes": [
+10.1
+]
+},
+{
+"page": 9,
+"abbr": "BMP",
+"full": "Bone Morphogenetic Protein",
+"sizes": [
+10.1
+]
+},
+{
+"page": 9,
+"abbr": "BMS",
+"full": "Bone marrow scan",
+"sizes": [
+10.1
+]
+},
+{
+"page": 9,
+"abbr": "BPB",
+"full": "brachial plexus block",
+"sizes": [
+10.1
+]
+},
+{
+"page": 9,
+"abbr": "Bx",
+"full": "Biopsy",
+"sizes": [
+10.1
+]
+},
+{
+"page": 9,
+"abbr": "C/D",
+"full": "Compressive dressing",
+"sizes": [
+10.1
+]
+},
+{
+"page": 9,
+"abbr": "C/R & I/F",
+"full": "Closed Reduction and Internal Fixation",
+"sizes": [
+10.1
+]
+},
+{
+"page": 9,
+"abbr": "C/W",
+"full": "Crutch walking",
+"sizes": [
+10.1
+]
+},
+{
+"page": 9,
+"abbr": "CDH",
+"full": "Congenital Dislocation of Hip",
+"sizes": [
+10.1
+]
+},
+{
+"page": 9,
+"abbr": "CDI",
+"full": "Cotrel-Duboussetinstrumentation",
+"sizes": [
+10.1
+]
+},
+{
+"page": 9,
+"abbr": "CHS",
+"full": "Compression Hip Screw Instrumentation",
+"sizes": [
+10.1
+]
+},
+{
+"page": 9,
+"abbr": "CIC",
+"full": "Clean intermittent catheterization",
+"sizes": [
+10.1
+]
+},
+{
+"page": 9,
+"abbr": "CMT's ds.",
+"full": "Charcot-Marie-Tooth's disease",
+"sizes": [
+10.1
+]
+},
+{
+"page": 9,
+"abbr": "COM",
+"full": "Chronic osteomyelitis",
+"sizes": [
+10.1
+]
+},
+{
+"page": 9,
+"abbr": "CP",
+"full": "Cerebral Palsy",
+"sizes": [
+10.1
+]
+},
+{
+"page": 9,
+"abbr": "CPM",
+"full": "Continuous passive motion",
+"sizes": [
+10.1
+]
+},
+{
+"page": 9,
+"abbr": "CRPS",
+"full": "Complex Regional Pain Syndrome",
+"sizes": [
+10.1
+]
+},
+{
+"page": 9,
+"abbr": "CTR",
+"full": "Carpal tunnel release",
+"sizes": [
+10.1
+]
+},
+{
+"page": 9,
+"abbr": "CTS",
+"full": "Carpal tunnel syndrome",
+"sizes": [
+10.1
+]
+},
+{
+"page": 9,
+"abbr": "DA",
+"full": "Degenerative Arthritis",
+"sizes": [
+10.1
+]
+},
+{
+"page": 9,
+"abbr": "DC",
+"full": "Deformity correction",
+"sizes": [
+10.1
+]
+},
+{
+"page": 9,
+"abbr": "DCP",
+"full": "Dynamic compression plate",
+"sizes": [
+10.1
+]
+},
+{
+"page": 9,
+"abbr": "DDH",
+"full": "Developmental Dysplasia of hip",
+"sizes": [
+10.1
+]
+},
+{
+"page": 9,
+"abbr": "DEXA",
+"full": "Dual Energy X-ray Absorptiometry",
+"sizes": [
+10.1
+]
+},
+{
+"page": 9,
+"abbr": "DF",
+"full": "Dorsiflexion",
+"sizes": [
+10.1
+]
+},
+{
+"page": 9,
+"abbr": "DHR",
+"full": "Distal hamstring release",
+"sizes": [
+10.1
+]
+},
+{
+"page": 9,
+"abbr": "DJD",
+"full": "Degenerative Joint Disease",
+"sizes": [
+10.1
+]
+},
+{
+"page": 9,
+"abbr": "DLC",
+"full": "Double level corticotomy",
+"sizes": [
+10.1
+]
+},
+{
+"page": 9,
+"abbr": "DPA",
+"full": "Dorsalis pedis artery",
+"sizes": [
+10.1
+]
+},
+{
+"page": 9,
+"abbr": "DTR",
+"full": "Deep Tendon Reflex",
+"sizes": [
+10.1
+]
+},
+{
+"page": 9,
+"abbr": "EB",
+"full": "elastic bandage",
+"sizes": [
+10.1
+]
+},
+{
+"page": 9,
+"abbr": "EBL",
+"full": "Estimated Blood Loss",
+"sizes": [
+10.1
+]
+},
+{
+"page": 9,
+"abbr": "EDL",
+"full": "Extensor Digitorum Longus",
+"sizes": [
+10.1
+]
+},
+{
+"page": 9,
+"abbr": "EHL",
+"full": "Extensor Hallucis Longus",
+"sizes": [
+10.1
+]
+},
+{
+"page": 9,
+"abbr": "EPH",
+"full": "Extensor Proprius Hallucis",
+"sizes": [
+10.1
+]
+},
+{
+"page": 9,
+"abbr": "EPL",
+"full": "Extensor Pollicis Longus",
+"sizes": [
+10.1
+]
+},
+{
+"page": 9,
+"abbr": "ER",
+"full": "External rotation (=OR)",
+"sizes": [
+10.1
+]
+},
+{
+"page": 9,
+"abbr": "EUA",
+"full": "Examination under the anesthesia",
+"sizes": [
+10.1
+]
+},
+{
+"page": 9,
+"abbr": "FBR",
+"full": "Foreign Body Removal",
+"sizes": [
+10.1
+]
+},
+{
+"page": 9,
+"abbr": "FC",
+"full": "Flexion Contracture",
+"sizes": [
+10.1
+]
+},
+{
+"page": 9,
+"abbr": "FD",
+"full": "Flexion Deformity",
+"sizes": [
+10.1
+]
+},
+{
+"page": 9,
+"abbr": "FDL",
+"full": "Flexor Digitorum Longus",
+"sizes": [
+10.1
+]
+},
+{
+"page": 9,
+"abbr": "FF",
+"full": "Further Flexion",
+"sizes": [
+10.1
+]
+},
+{
+"page": 9,
+"abbr": "FHL",
+"full": "Flexor Hallucis Longus",
+"sizes": [
+10.1
+]
+},
+{
+"page": 9,
+"abbr": "FL",
+"full": "Femur lengthening",
+"sizes": [
+10.1
+]
+},
+{
+"page": 9,
+"abbr": "FTSG",
+"full": "Full Thickness Skin Graft",
+"sizes": [
+10.1
+]
+},
+{
+"page": 10,
+"abbr": "Fx",
+"full": "Fracture",
+"sizes": [
+10.1
+]
+},
+{
+"page": 10,
+"abbr": "GCT",
+"full": "Giant cell tumor",
+"sizes": [
+10.1
+]
+},
+{
+"page": 10,
+"abbr": "G-enema",
+"full": "glycerin enema",
+"sizes": [
+10.1
+]
+},
+{
+"page": 10,
+"abbr": "HIVD",
+"full": "Herniation of Intervertebral Disc",
+"sizes": [
+10.1
+]
+},
+{
+"page": 10,
+"abbr": "HTO",
+"full": "HighTibialOsteotomy",
+"sizes": [
+10.1
+]
+},
+{
+"page": 10,
+"abbr": "H-vac",
+"full": "hemovac",
+"sizes": [
+10.1
+]
+},
+{
+"page": 10,
+"abbr": "I & D",
+"full": "Incision & Drainage",
+"sizes": [
+10.1
+]
+},
+{
+"page": 10,
+"abbr": "I/F",
+"full": "Internal Fixation",
+"sizes": [
+10.1
+]
+},
+{
+"page": 10,
+"abbr": "IDK",
+"full": "Internal Derangement(of knee)",
+"sizes": [
+10.1
+]
+},
+{
+"page": 10,
+"abbr": "IM nail",
+"full": "Intramedullary nail",
+"sizes": [
+10.1
+]
+},
+{
+"page": 10,
+"abbr": "IOA",
+"full": "Intraoperative arthrography",
+"sizes": [
+10.1
+]
+},
+{
+"page": 10,
+"abbr": "IR",
+"full": "Internal Rotation",
+"sizes": [
+10.1
+]
+},
+{
+"page": 10,
+"abbr": "JP drain",
+"full": "Jackson Pratt drain",
+"sizes": [
+10.1
+]
+},
+{
+"page": 10,
+"abbr": "KJ",
+"full": "Knee Jerk",
+"sizes": [
+10.1
+]
+},
+{
+"page": 10,
+"abbr": "KT2000",
+"full": "(KT2000을 이용한) arthrometry",
+"sizes": [
+10.1
+]
+},
+{
+"page": 10,
+"abbr": "L/A cast",
+"full": "Long arm cast",
+"sizes": [
+10.1
+]
+},
+{
+"page": 10,
+"abbr": "L/E",
+"full": "Lower Extremity",
+"sizes": [
+10.1
+]
+},
+{
+"page": 10,
+"abbr": "L/L cast",
+"full": "Long leg cast",
+"sizes": [
+10.1
+]
+},
+{
+"page": 10,
+"abbr": "LBP",
+"full": "Low back pain",
+"sizes": [
+10.1
+]
+},
+{
+"page": 10,
+"abbr": "LCL",
+"full": "Lateral collateral ligament (of knee)",
+"sizes": [
+10.1
+]
+},
+{
+"page": 10,
+"abbr": "LCP's ds",
+"full": "Legg-Calvé-Perthes' Disease",
+"sizes": [
+10.1
+]
+},
+{
+"page": 10,
+"abbr": "LLD",
+"full": "Leg length discrepancy",
+"sizes": [
+10.1
+]
+},
+{
+"page": 10,
+"abbr": "LM",
+"full": "Lateral Meniscus",
+"sizes": [
+10.1
+]
+},
+{
+"page": 10,
+"abbr": "LOM",
+"full": "Limitation of motion",
+"sizes": [
+10.1
+]
+},
+{
+"page": 10,
+"abbr": "MCC",
+"full": "Midcalf Circumference",
+"sizes": [
+10.1
+]
+},
+{
+"page": 10,
+"abbr": "MCL",
+"full": "Medial collateral ligament (of knee)",
+"sizes": [
+10.1
+]
+},
+{
+"page": 10,
+"abbr": "MFH",
+"full": "Malignant Fibrous Histiocytoma",
+"sizes": [
+10.1
+]
+},
+{
+"page": 10,
+"abbr": "MJLT",
+"full": "Medial joint line tenderness",
+"sizes": [
+10.1
+]
+},
+{
+"page": 10,
+"abbr": "MM",
+"full": "Medial Meniscus",
+"sizes": [
+10.1
+]
+},
+{
+"page": 10,
+"abbr": "MT",
+"full": "metatarsal",
+"sizes": [
+10.1
+]
+},
+{
+"page": 10,
+"abbr": "MTC",
+"full": "Midthigh Circumference",
+"sizes": [
+10.1
+]
+},
+{
+"page": 10,
+"abbr": "O/R & E/F",
+"full": "Open Reduction and External Fixation",
+"sizes": [
+10.1
+]
+},
+{
+"page": 10,
+"abbr": "O/R & I/F",
+"full": "Open Reduction and Internal Fixation",
+"sizes": [
+10.1
+]
+},
+{
+"page": 10,
+"abbr": "OA",
+"full": "Osteoarthritis",
+"sizes": [
+10.1
+]
+},
+{
+"page": 10,
+"abbr": "OCD",
+"full": "Osteochondritis dissecans",
+"sizes": [
+10.1
+]
+},
+{
+"page": 10,
+"abbr": "OI",
+"full": "Osteogenesis Imperfecta",
+"sizes": [
+10.1
+]
+},
+{
+"page": 10,
+"abbr": "OOP",
+"full": "Out of plaster(cast의 일부를 개방함)",
+"sizes": [
+10.1
+]
+},
+{
+"page": 10,
+"abbr": "OPLL",
+"full": "Ossification of posterior longitudinal ligament",
+"sizes": [
+10.1
+]
+},
+{
+"page": 10,
+"abbr": "OR",
+"full": "Open Reduction",
+"sizes": [
+10.1
+]
+},
+{
+"page": 10,
+"abbr": "OSA",
+"full": "Osteosarcoma",
+"sizes": [
+10.1
+]
+},
+{
+"page": 10,
+"abbr": "PB",
+"full": "Peroneus brevis",
+"sizes": [
+10.1
+]
+},
+{
+"page": 10,
+"abbr": "P-bar walking",
+"full": "Parallel bar walking",
+"sizes": [
+10.1
+]
+},
+{
+"page": 10,
+"abbr": "PC (of the knee)",
+"full": "Posterior Capsulotomy (of the knee)",
+"sizes": [
+10.1
+]
+},
+{
+"page": 10,
+"abbr": "PCA",
+"full": "patient controlled analgesia",
+"sizes": [
+10.1
+]
+},
+{
+"page": 10,
+"abbr": "PCL",
+"full": "Posterior Cruciate Ligament",
+"sizes": [
+10.1
+]
+},
+{
+"page": 10,
+"abbr": "PCT",
+"full": "Patella compression test",
+"sizes": [
+10.1
+]
+},
+{
+"page": 10,
+"abbr": "PF",
+"full": "Plantar Fasciotomy",
+"sizes": [
+10.1
+]
+},
+{
+"page": 10,
+"abbr": "PF",
+"full": "Plantar flexion",
+"sizes": [
+10.1
+]
+},
+{
+"page": 10,
+"abbr": "P-F crep",
+"full": "Patellofemoral crepitus",
+"sizes": [
+10.1
+]
+},
+{
+"page": 10,
+"abbr": "PLIF",
+"full": "Posterior Lumbar interbody fusion",
+"sizes": [
+10.1
+]
+},
+{
+"page": 10,
+"abbr": "PMD",
+"full": "Progressive muscular dystrophy",
+"sizes": [
+10.1
+]
+},
+{
+"page": 10,
+"abbr": "POD",
+"full": "Postoperative Day",
+"sizes": [
+10.1
+]
+},
+{
+"page": 10,
+"abbr": "Post. Fusion",
+"full": "Posterior Fusion",
+"sizes": [
+10.1
+]
+},
+{
+"page": 10,
+"abbr": "PTB cast",
+"full": "Patella Tendon Bearing cast",
+"sizes": [
+10.1
+]
+},
+{
+"page": 10,
+"abbr": "PTx",
+"full": "Physical therapy",
+"sizes": [
+10.1
+]
+},
+{
+"page": 10,
+"abbr": "PVNS",
+"full": "Pigmented Villonodular synovitis",
+"sizes": [
+10.1
+]
+},
+{
+"page": 10,
+"abbr": "PWB",
+"full": "Partial weight bearing",
+"sizes": [
+10.1
+]
+},
+{
+"page": 10,
+"abbr": "QSE",
+"full": "Quadriceps setting exercise",
+"sizes": [
+10.1
+]
+},
+{
+"page": 10,
+"abbr": "RA",
+"full": "Rheumatoid Arthritis",
+"sizes": [
+10.1
+]
+},
+{
+"page": 10,
+"abbr": "RCT",
+"full": "Rotator cuff tear",
+"sizes": [
+10.1
+]
+},
+{
+"page": 11,
+"abbr": "RD",
+"full": "Radial deviation",
+"sizes": [
+10.1
+]
+},
+{
+"page": 11,
+"abbr": "Rev. THRA",
+"full": "Revision of THRA",
+"sizes": [
+10.1
+]
+},
+{
+"page": 11,
+"abbr": "Rev. TKRA",
+"full": "Revision of TKRA",
+"sizes": [
+10.1
+]
+},
+{
+"page": 11,
+"abbr": "ROM",
+"full": "Range of motion",
+"sizes": [
+10.1
+]
+},
+{
+"page": 11,
+"abbr": "RP",
+"full": "Radiating pain",
+"sizes": [
+10.1
+]
+},
+{
+"page": 11,
+"abbr": "RP",
+"full": "Residual Poliomyelitis",
+"sizes": [
+10.1
+]
+},
+{
+"page": 11,
+"abbr": "RSD",
+"full": "Reflex sympathetic dystrophy",
+"sizes": [
+10.1
+]
+},
+{
+"page": 11,
+"abbr": "S/A cast",
+"full": "Short arm cast",
+"sizes": [
+10.1
+]
+},
+{
+"page": 11,
+"abbr": "S/L cast",
+"full": "Short leg cast",
+"sizes": [
+10.1
+]
+},
+{
+"page": 11,
+"abbr": "SBC",
+"full": "Solitary bone cyst",
+"sizes": [
+10.1
+]
+},
+{
+"page": 11,
+"abbr": "SCM",
+"full": "Sternocleidomastoid Muscle",
+"sizes": [
+10.1
+]
+},
+{
+"page": 11,
+"abbr": "SCO",
+"full": "Supracondylar Osteotomy",
+"sizes": [
+10.1
+]
+},
+{
+"page": 11,
+"abbr": "seq",
+"full": "sequalae",
+"sizes": [
+10.1
+]
+},
+{
+"page": 11,
+"abbr": "SIA(AIS)",
+"full": "Scoliosis Idiopathic Adolescent",
+"sizes": [
+10.1
+]
+},
+{
+"page": 11,
+"abbr": "SII(IIS)",
+"full": "Scoliosis Idiopathic Infantile",
+"sizes": [
+10.1
+]
+},
+{
+"page": 11,
+"abbr": "SIJ(JIS)",
+"full": "Scoliosis Idiopathic Juvenile",
+"sizes": [
+10.1
+]
+},
+{
+"page": 11,
+"abbr": "SLAP",
+"full": "Superior Labrum Anterior to Posterior",
+"sizes": [
+10.1
+]
+},
+{
+"page": 11,
+"abbr": "SLC",
+"full": "Single level corticotomy",
+"sizes": [
+10.1
+]
+},
+{
+"page": 11,
+"abbr": "SLR",
+"full": "Straight Leg Raising",
+"sizes": [
+10.1
+]
+},
+{
+"page": 11,
+"abbr": "SMC",
+"full": "Sensory Motor Circulation",
+"sizes": [
+10.1
+]
+},
+{
+"page": 11,
+"abbr": "SMD",
+"full": "Spinomaleolar distance",
+"sizes": [
+10.1
+]
+},
+{
+"page": 11,
+"abbr": "SS",
+"full": "Spinal Stenosis",
+"sizes": [
+10.1
+]
+},
+{
+"page": 11,
+"abbr": "STSG",
+"full": "Split Thickness Skin Graft",
+"sizes": [
+10.1
+]
+},
+{
+"page": 11,
+"abbr": "TA",
+"full": "Traffic accident",
+"sizes": [
+10.1
+]
+},
+{
+"page": 11,
+"abbr": "TA",
+"full": "Tibialis Anterior muscle",
+"sizes": [
+10.1
+]
+},
+{
+"page": 11,
+"abbr": "Tb Spine",
+"full": "Tuberculosis Spine",
+"sizes": [
+10.1
+]
+},
+{
+"page": 11,
+"abbr": "TENS",
+"full": "Transcutaneous Electric Nerve Stimulation",
+"sizes": [
+10.1
+]
+},
+{
+"page": 11,
+"abbr": "TERA",
+"full": "Total Elbow Replacement Arthroplasty",
+"sizes": [
+10.1
+]
+},
+{
+"page": 11,
+"abbr": "T-F crep",
+"full": "Tibiofemoral crepitus",
+"sizes": [
+10.1
+]
+},
+{
+"page": 11,
+"abbr": "THRA",
+"full": "Total Hip Replacement Arthroplasty",
+"sizes": [
+10.1
+]
+},
+{
+"page": 11,
+"abbr": "TJ",
+"full": "Tricepsbrachiijerk",
+"sizes": [
+10.1
+]
+},
+{
+"page": 11,
+"abbr": "TKRA",
+"full": "Total Knee Replacement Arthroplasty",
+"sizes": [
+10.1
+]
+},
+{
+"page": 11,
+"abbr": "TL",
+"full": "Tibial lengthening",
+"sizes": [
+10.1
+]
+},
+{
+"page": 11,
+"abbr": "TLSO",
+"full": "Thoracolumbosacral orthosis",
+"sizes": [
+10.1
+]
+},
+{
+"page": 11,
+"abbr": "Tm",
+"full": "Tumor",
+"sizes": [
+10.1
+]
+},
+{
+"page": 11,
+"abbr": "TP",
+"full": "Tibialis posterior muscle",
+"sizes": [
+10.1
+]
+},
+{
+"page": 11,
+"abbr": "TP transfer",
+"full": "TendonPeroneiTransfertodorsum",
+"sizes": [
+10.1
+]
+},
+{
+"page": 11,
+"abbr": "TSRA",
+"full": "Total Shoulder Replacement Arthroplasty",
+"sizes": [
+10.1
+]
+},
+{
+"page": 11,
+"abbr": "TSRH",
+"full": "Texas Scottish Rite Hospital System",
+"sizes": [
+10.1
+]
+},
+{
+"page": 11,
+"abbr": "TT fusion",
+"full": "Tibio Talar fusion",
+"sizes": [
+10.1
+]
+},
+{
+"page": 11,
+"abbr": "T-table",
+"full": "Tiltingtable",
+"sizes": [
+10.1
+]
+},
+{
+"page": 11,
+"abbr": "TTS",
+"full": "ThomasThomson(Strauber)operation",
+"sizes": [
+10.1
+]
+},
+{
+"page": 11,
+"abbr": "U/E",
+"full": "Upper extremity",
+"sizes": [
+10.1
+]
+},
+{
+"page": 11,
+"abbr": "UD",
+"full": "Ulnar deviation",
+"sizes": [
+10.1
+]
+},
+{
+"page": 11,
+"abbr": "UDS",
+"full": "urodynamic study",
+"sizes": [
+10.1
+]
+},
+{
+"page": 11,
+"abbr": "UMD",
+"full": "Umblicomaleolar Distance",
+"sizes": [
+10.1
+]
+},
+{
+"page": 11,
+"abbr": "VIC",
+"full": "Volkmann's Ischemic Contracture",
+"sizes": [
+10.1
+]
+},
+{
+"page": 11,
+"abbr": "W/A",
+"full": "Wheelchair ambulation",
+"sizes": [
+10.1
+]
+},
+{
+"page": 11,
+"abbr": "Wd",
+"full": "Wound",
+"sizes": [
+10.1
+]
+}
+]

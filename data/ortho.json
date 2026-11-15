@@ -1,0 +1,2545 @@
+[
+ {
+  "id": "abc",
+  "abbr": "ABC",
+  "full": "Aneurysmal bone cyst",
+  "alt": [],
+  "note": "",
+  "ko": "동맥류성 골낭종",
+  "tags": [
+   "골절·질환"
+  ],
+  "src": {
+   "page": 9,
+   "raw": "Aneurysmal bone cyst"
+  }
+ },
+ {
+  "id": "ac",
+  "abbr": "AC",
+  "full": "Ankle Clonus",
+  "alt": [],
+  "note": "",
+  "ko": "발목 간대성 경련(발목 클로누스)",
+  "tags": [
+   "검사·치료"
+  ],
+  "src": {
+   "page": 9,
+   "raw": "Ankle Clonus"
+  }
+ },
+ {
+  "id": "acl",
+  "abbr": "ACL",
+  "full": "Anterior Cruciate Ligament",
+  "alt": [],
+  "note": "",
+  "ko": "전방십자인대",
+  "tags": [
+   "해부·근육"
+  ],
+  "src": {
+   "page": 9,
+   "raw": "Anterior Cruciate Ligament"
+  }
+ },
+ {
+  "id": "aj",
+  "abbr": "AJ",
+  "full": "Ankle Jerk",
+  "alt": [],
+  "note": "",
+  "ko": "발목 반사(아킬레스건 반사)",
+  "tags": [
+   "검사·치료"
+  ],
+  "src": {
+   "page": 9,
+   "raw": "Ankle Jerk"
+  }
+ },
+ {
+  "id": "ak",
+  "abbr": "AK",
+  "full": "Above Knee",
+  "alt": [],
+  "note": "",
+  "ko": "무릎 위",
+  "tags": [
+   "기타"
+  ],
+  "src": {
+   "page": 9,
+   "raw": "Above Knee"
+  }
+ },
+ {
+  "id": "a-k-amputation",
+  "abbr": "A-K Amputation",
+  "full": "Above Knee Amputation",
+  "alt": [],
+  "note": "",
+  "ko": "무릎 위 절단(대퇴 절단)",
+  "tags": [
+   "수술명"
+  ],
+  "src": {
+   "page": 9,
+   "raw": "Above Knee Amputation"
+  }
+ },
+ {
+  "id": "a-m-prosthesis",
+  "abbr": "A-M Prosthesis",
+  "full": "Austin Moore Prosthesis",
+  "alt": [],
+  "note": "",
+  "ko": "",
+  "tags": [
+   "수술명"
+  ],
+  "src": {
+   "page": 9,
+   "raw": "Austin Moore Prosthesis"
+  }
+ },
+ {
+  "id": "ant-fusion",
+  "abbr": "Ant. Fusion",
+  "full": "Anterior Fusion",
+  "alt": [],
+  "note": "",
+  "ko": "전방 유합술",
+  "tags": [
+   "수술명"
+  ],
+  "src": {
+   "page": 9,
+   "raw": "Anterior Fusion"
+  }
+ },
+ {
+  "id": "avn",
+  "abbr": "AVN",
+  "full": "Avascular Necrosis",
+  "alt": [],
+  "note": "",
+  "ko": "무혈성 괴사",
+  "tags": [
+   "골절·질환"
+  ],
+  "src": {
+   "page": 9,
+   "raw": "Avascular Necrosis"
+  }
+ },
+ {
+  "id": "bg",
+  "abbr": "BG",
+  "full": "Bone graft",
+  "alt": [],
+  "note": "",
+  "ko": "골이식",
+  "tags": [
+   "수술명"
+  ],
+  "src": {
+   "page": 9,
+   "raw": "Bone graft"
+  }
+ },
+ {
+  "id": "bj",
+  "abbr": "BJ",
+  "full": "Biceps brachii jerk",
+  "alt": [],
+  "note": "",
+  "ko": "이두근 반사",
+  "tags": [
+   "검사·치료"
+  ],
+  "src": {
+   "page": 9,
+   "raw": "Biceps brachii jerk"
+  }
+ },
+ {
+  "id": "bk",
+  "abbr": "BK",
+  "full": "Below Knee",
+  "alt": [],
+  "note": "",
+  "ko": "무릎 아래",
+  "tags": [
+   "기타"
+  ],
+  "src": {
+   "page": 9,
+   "raw": "Below Knee"
+  }
+ },
+ {
+  "id": "b-k-amputation",
+  "abbr": "B-K Amputation",
+  "full": "Below Knee Amputation",
+  "alt": [],
+  "note": "",
+  "ko": "무릎 아래 절단(하퇴 절단)",
+  "tags": [
+   "수술명"
+  ],
+  "src": {
+   "page": 9,
+   "raw": "Below Knee Amputation"
+  }
+ },
+ {
+  "id": "bmp",
+  "abbr": "BMP",
+  "full": "Bone Morphogenetic Protein",
+  "alt": [],
+  "note": "",
+  "ko": "골형성 단백질",
+  "tags": [
+   "기타"
+  ],
+  "src": {
+   "page": 9,
+   "raw": "Bone Morphogenetic Protein"
+  }
+ },
+ {
+  "id": "bms",
+  "abbr": "BMS",
+  "full": "Bone marrow scan",
+  "alt": [],
+  "note": "",
+  "ko": "",
+  "tags": [
+   "검사·치료"
+  ],
+  "src": {
+   "page": 9,
+   "raw": "Bone marrow scan"
+  }
+ },
+ {
+  "id": "bpb",
+  "abbr": "BPB",
+  "full": "brachial plexus block",
+  "alt": [],
+  "note": "",
+  "ko": "상완신경총 차단",
+  "tags": [
+   "검사·치료"
+  ],
+  "src": {
+   "page": 9,
+   "raw": "brachial plexus block"
+  }
+ },
+ {
+  "id": "bx",
+  "abbr": "Bx",
+  "full": "Biopsy",
+  "alt": [],
+  "note": "",
+  "ko": "생검",
+  "tags": [
+   "검사·치료"
+  ],
+  "src": {
+   "page": 9,
+   "raw": "Biopsy"
+  }
+ },
+ {
+  "id": "c-d",
+  "abbr": "C/D",
+  "full": "Compressive dressing",
+  "alt": [],
+  "note": "",
+  "ko": "압박 드레싱",
+  "tags": [
+   "깁스·보조기"
+  ],
+  "src": {
+   "page": 9,
+   "raw": "Compressive dressing"
+  }
+ },
+ {
+  "id": "c-r-i-f",
+  "abbr": "C/R & I/F",
+  "full": "Closed Reduction and Internal Fixation",
+  "alt": [],
+  "note": "",
+  "ko": "비관혈적 정복 및 내고정술",
+  "tags": [
+   "수술명"
+  ],
+  "src": {
+   "page": 9,
+   "raw": "Closed Reduction and Internal Fixation"
+  }
+ },
+ {
+  "id": "c-w",
+  "abbr": "C/W",
+  "full": "Crutch walking",
+  "alt": [],
+  "note": "",
+  "ko": "목발 보행",
+  "tags": [
+   "깁스·보조기"
+  ],
+  "src": {
+   "page": 9,
+   "raw": "Crutch walking"
+  }
+ },
+ {
+  "id": "cdh",
+  "abbr": "CDH",
+  "full": "Congenital Dislocation of Hip",
+  "alt": [],
+  "note": "",
+  "ko": "선천성 고관절 탈구",
+  "tags": [
+   "골절·질환"
+  ],
+  "src": {
+   "page": 9,
+   "raw": "Congenital Dislocation of Hip"
+  }
+ },
+ {
+  "id": "cdi",
+  "abbr": "CDI",
+  "full": "Cotrel-Dubousset Instrumentation",
+  "alt": [
+   "Cotrel-Duboussetinstrumentation"
+  ],
+  "note": "",
+  "ko": "",
+  "tags": [
+   "수술명"
+  ],
+  "src": {
+   "page": 9,
+   "raw": "Cotrel-Duboussetinstrumentation"
+  }
+ },
+ {
+  "id": "chs",
+  "abbr": "CHS",
+  "full": "Compression Hip Screw Instrumentation",
+  "alt": [],
+  "note": "",
+  "ko": "",
+  "tags": [
+   "수술명"
+  ],
+  "src": {
+   "page": 9,
+   "raw": "Compression Hip Screw Instrumentation"
+  }
+ },
+ {
+  "id": "cic",
+  "abbr": "CIC",
+  "full": "Clean intermittent catheterization",
+  "alt": [],
+  "note": "",
+  "ko": "청결 간헐적 도뇨",
+  "tags": [
+   "검사·치료"
+  ],
+  "src": {
+   "page": 9,
+   "raw": "Clean intermittent catheterization"
+  }
+ },
+ {
+  "id": "cmt-s-ds",
+  "abbr": "CMT's ds.",
+  "full": "Charcot-Marie-Tooth's disease",
+  "alt": [],
+  "note": "",
+  "ko": "샤르코-마리-투스병",
+  "tags": [
+   "골절·질환"
+  ],
+  "src": {
+   "page": 9,
+   "raw": "Charcot-Marie-Tooth's disease"
+  }
+ },
+ {
+  "id": "com",
+  "abbr": "COM",
+  "full": "Chronic osteomyelitis",
+  "alt": [],
+  "note": "",
+  "ko": "만성 골수염",
+  "tags": [
+   "골절·질환"
+  ],
+  "src": {
+   "page": 9,
+   "raw": "Chronic osteomyelitis"
+  }
+ },
+ {
+  "id": "cp",
+  "abbr": "CP",
+  "full": "Cerebral Palsy",
+  "alt": [],
+  "note": "",
+  "ko": "뇌성마비",
+  "tags": [
+   "골절·질환"
+  ],
+  "src": {
+   "page": 9,
+   "raw": "Cerebral Palsy"
+  }
+ },
+ {
+  "id": "cpm",
+  "abbr": "CPM",
+  "full": "Continuous passive motion",
+  "alt": [],
+  "note": "",
+  "ko": "지속적 수동 운동",
+  "tags": [
+   "검사·치료"
+  ],
+  "src": {
+   "page": 9,
+   "raw": "Continuous passive motion"
+  }
+ },
+ {
+  "id": "crps",
+  "abbr": "CRPS",
+  "full": "Complex Regional Pain Syndrome",
+  "alt": [],
+  "note": "",
+  "ko": "복합부위 통증 증후군",
+  "tags": [
+   "골절·질환"
+  ],
+  "src": {
+   "page": 9,
+   "raw": "Complex Regional Pain Syndrome"
+  }
+ },
+ {
+  "id": "ctr",
+  "abbr": "CTR",
+  "full": "Carpal tunnel release",
+  "alt": [],
+  "note": "",
+  "ko": "수근관 유리술",
+  "tags": [
+   "수술명"
+  ],
+  "src": {
+   "page": 9,
+   "raw": "Carpal tunnel release"
+  }
+ },
+ {
+  "id": "cts",
+  "abbr": "CTS",
+  "full": "Carpal tunnel syndrome",
+  "alt": [],
+  "note": "",
+  "ko": "수근관 증후군",
+  "tags": [
+   "골절·질환"
+  ],
+  "src": {
+   "page": 9,
+   "raw": "Carpal tunnel syndrome"
+  }
+ },
+ {
+  "id": "da",
+  "abbr": "DA",
+  "full": "Degenerative Arthritis",
+  "alt": [],
+  "note": "",
+  "ko": "퇴행성 관절염",
+  "tags": [
+   "골절·질환"
+  ],
+  "src": {
+   "page": 9,
+   "raw": "Degenerative Arthritis"
+  }
+ },
+ {
+  "id": "dc",
+  "abbr": "DC",
+  "full": "Deformity correction",
+  "alt": [],
+  "note": "",
+  "ko": "변형 교정",
+  "tags": [
+   "수술명"
+  ],
+  "src": {
+   "page": 9,
+   "raw": "Deformity correction"
+  }
+ },
+ {
+  "id": "dcp",
+  "abbr": "DCP",
+  "full": "Dynamic compression plate",
+  "alt": [],
+  "note": "",
+  "ko": "동적 압박 금속판",
+  "tags": [
+   "수술명"
+  ],
+  "src": {
+   "page": 9,
+   "raw": "Dynamic compression plate"
+  }
+ },
+ {
+  "id": "ddh",
+  "abbr": "DDH",
+  "full": "Developmental Dysplasia of hip",
+  "alt": [],
+  "note": "",
+  "ko": "발달성 고관절 이형성증",
+  "tags": [
+   "골절·질환"
+  ],
+  "src": {
+   "page": 9,
+   "raw": "Developmental Dysplasia of hip"
+  }
+ },
+ {
+  "id": "dexa",
+  "abbr": "DEXA",
+  "full": "Dual Energy X-ray Absorptiometry",
+  "alt": [],
+  "note": "",
+  "ko": "이중에너지 X선 흡수계측법(골밀도 검사)",
+  "tags": [
+   "검사·치료"
+  ],
+  "src": {
+   "page": 9,
+   "raw": "Dual Energy X-ray Absorptiometry"
+  }
+ },
+ {
+  "id": "df",
+  "abbr": "DF",
+  "full": "Dorsiflexion",
+  "alt": [],
+  "note": "",
+  "ko": "배측굴곡",
+  "tags": [
+   "기타"
+  ],
+  "src": {
+   "page": 9,
+   "raw": "Dorsiflexion"
+  }
+ },
+ {
+  "id": "dhr",
+  "abbr": "DHR",
+  "full": "Distal hamstring release",
+  "alt": [],
+  "note": "",
+  "ko": "",
+  "tags": [
+   "수술명"
+  ],
+  "src": {
+   "page": 9,
+   "raw": "Distal hamstring release"
+  }
+ },
+ {
+  "id": "djd",
+  "abbr": "DJD",
+  "full": "Degenerative Joint Disease",
+  "alt": [],
+  "note": "",
+  "ko": "퇴행성 관절 질환",
+  "tags": [
+   "골절·질환"
+  ],
+  "src": {
+   "page": 9,
+   "raw": "Degenerative Joint Disease"
+  }
+ },
+ {
+  "id": "dlc",
+  "abbr": "DLC",
+  "full": "Double level corticotomy",
+  "alt": [],
+  "note": "",
+  "ko": "",
+  "tags": [
+   "수술명"
+  ],
+  "src": {
+   "page": 9,
+   "raw": "Double level corticotomy"
+  }
+ },
+ {
+  "id": "dpa",
+  "abbr": "DPA",
+  "full": "Dorsalis pedis artery",
+  "alt": [],
+  "note": "",
+  "ko": "족배동맥",
+  "tags": [
+   "해부·근육"
+  ],
+  "src": {
+   "page": 9,
+   "raw": "Dorsalis pedis artery"
+  }
+ },
+ {
+  "id": "dtr",
+  "abbr": "DTR",
+  "full": "Deep Tendon Reflex",
+  "alt": [],
+  "note": "",
+  "ko": "심부건 반사",
+  "tags": [
+   "검사·치료"
+  ],
+  "src": {
+   "page": 9,
+   "raw": "Deep Tendon Reflex"
+  }
+ },
+ {
+  "id": "eb",
+  "abbr": "EB",
+  "full": "elastic bandage",
+  "alt": [],
+  "note": "",
+  "ko": "탄력붕대",
+  "tags": [
+   "깁스·보조기"
+  ],
+  "src": {
+   "page": 9,
+   "raw": "elastic bandage"
+  }
+ },
+ {
+  "id": "ebl",
+  "abbr": "EBL",
+  "full": "Estimated Blood Loss",
+  "alt": [],
+  "note": "",
+  "ko": "추정 출혈량",
+  "tags": [
+   "기타"
+  ],
+  "src": {
+   "page": 9,
+   "raw": "Estimated Blood Loss"
+  }
+ },
+ {
+  "id": "edl",
+  "abbr": "EDL",
+  "full": "Extensor Digitorum Longus",
+  "alt": [],
+  "note": "",
+  "ko": "장지신근(긴발가락폄근)",
+  "tags": [
+   "해부·근육"
+  ],
+  "src": {
+   "page": 9,
+   "raw": "Extensor Digitorum Longus"
+  }
+ },
+ {
+  "id": "ehl",
+  "abbr": "EHL",
+  "full": "Extensor Hallucis Longus",
+  "alt": [],
+  "note": "",
+  "ko": "장무지신근(발)",
+  "tags": [
+   "해부·근육"
+  ],
+  "src": {
+   "page": 9,
+   "raw": "Extensor Hallucis Longus"
+  }
+ },
+ {
+  "id": "eph",
+  "abbr": "EPH",
+  "full": "Extensor Proprius Hallucis",
+  "alt": [],
+  "note": "",
+  "ko": "",
+  "tags": [
+   "해부·근육"
+  ],
+  "src": {
+   "page": 9,
+   "raw": "Extensor Proprius Hallucis"
+  }
+ },
+ {
+  "id": "epl",
+  "abbr": "EPL",
+  "full": "Extensor Pollicis Longus",
+  "alt": [],
+  "note": "",
+  "ko": "장무지신근(손)",
+  "tags": [
+   "해부·근육"
+  ],
+  "src": {
+   "page": 9,
+   "raw": "Extensor Pollicis Longus"
+  }
+ },
+ {
+  "id": "er",
+  "abbr": "ER",
+  "full": "External rotation",
+  "alt": [
+   "External rotation (=OR)"
+  ],
+  "note": "(=OR)",
+  "ko": "외회전",
+  "tags": [
+   "기타"
+  ],
+  "src": {
+   "page": 9,
+   "raw": "External rotation (=OR)"
+  }
+ },
+ {
+  "id": "eua",
+  "abbr": "EUA",
+  "full": "Examination under the anesthesia",
+  "alt": [],
+  "note": "",
+  "ko": "마취하 검사",
+  "tags": [
+   "검사·치료"
+  ],
+  "src": {
+   "page": 9,
+   "raw": "Examination under the anesthesia"
+  }
+ },
+ {
+  "id": "fbr",
+  "abbr": "FBR",
+  "full": "Foreign Body Removal",
+  "alt": [],
+  "note": "",
+  "ko": "이물 제거",
+  "tags": [
+   "수술명"
+  ],
+  "src": {
+   "page": 9,
+   "raw": "Foreign Body Removal"
+  }
+ },
+ {
+  "id": "fc",
+  "abbr": "FC",
+  "full": "Flexion Contracture",
+  "alt": [],
+  "note": "",
+  "ko": "굴곡 구축",
+  "tags": [
+   "골절·질환"
+  ],
+  "src": {
+   "page": 9,
+   "raw": "Flexion Contracture"
+  }
+ },
+ {
+  "id": "fd",
+  "abbr": "FD",
+  "full": "Flexion Deformity",
+  "alt": [],
+  "note": "",
+  "ko": "굴곡 변형",
+  "tags": [
+   "골절·질환"
+  ],
+  "src": {
+   "page": 9,
+   "raw": "Flexion Deformity"
+  }
+ },
+ {
+  "id": "fdl",
+  "abbr": "FDL",
+  "full": "Flexor Digitorum Longus",
+  "alt": [],
+  "note": "",
+  "ko": "장지굴근(긴발가락굽힘근)",
+  "tags": [
+   "해부·근육"
+  ],
+  "src": {
+   "page": 9,
+   "raw": "Flexor Digitorum Longus"
+  }
+ },
+ {
+  "id": "ff",
+  "abbr": "FF",
+  "full": "Further Flexion",
+  "alt": [],
+  "note": "",
+  "ko": "",
+  "tags": [
+   "기타"
+  ],
+  "src": {
+   "page": 9,
+   "raw": "Further Flexion"
+  }
+ },
+ {
+  "id": "fhl",
+  "abbr": "FHL",
+  "full": "Flexor Hallucis Longus",
+  "alt": [],
+  "note": "",
+  "ko": "장무지굴근(발)",
+  "tags": [
+   "해부·근육"
+  ],
+  "src": {
+   "page": 9,
+   "raw": "Flexor Hallucis Longus"
+  }
+ },
+ {
+  "id": "fl",
+  "abbr": "FL",
+  "full": "Femur lengthening",
+  "alt": [],
+  "note": "",
+  "ko": "대퇴골 연장술",
+  "tags": [
+   "수술명"
+  ],
+  "src": {
+   "page": 9,
+   "raw": "Femur lengthening"
+  }
+ },
+ {
+  "id": "ftsg",
+  "abbr": "FTSG",
+  "full": "Full Thickness Skin Graft",
+  "alt": [],
+  "note": "",
+  "ko": "전층 피부이식",
+  "tags": [
+   "수술명"
+  ],
+  "src": {
+   "page": 9,
+   "raw": "Full Thickness Skin Graft"
+  }
+ },
+ {
+  "id": "fx",
+  "abbr": "Fx",
+  "full": "Fracture",
+  "alt": [],
+  "note": "",
+  "ko": "골절",
+  "tags": [
+   "골절·질환"
+  ],
+  "src": {
+   "page": 10,
+   "raw": "Fracture"
+  }
+ },
+ {
+  "id": "gct",
+  "abbr": "GCT",
+  "full": "Giant cell tumor",
+  "alt": [],
+  "note": "",
+  "ko": "거대세포종",
+  "tags": [
+   "골절·질환"
+  ],
+  "src": {
+   "page": 10,
+   "raw": "Giant cell tumor"
+  }
+ },
+ {
+  "id": "g-enema",
+  "abbr": "G-enema",
+  "full": "glycerin enema",
+  "alt": [],
+  "note": "",
+  "ko": "글리세린 관장",
+  "tags": [
+   "검사·치료"
+  ],
+  "src": {
+   "page": 10,
+   "raw": "glycerin enema"
+  }
+ },
+ {
+  "id": "hivd",
+  "abbr": "HIVD",
+  "full": "Herniation of Intervertebral Disc",
+  "alt": [],
+  "note": "",
+  "ko": "추간판 탈출증",
+  "tags": [
+   "골절·질환"
+  ],
+  "src": {
+   "page": 10,
+   "raw": "Herniation of Intervertebral Disc"
+  }
+ },
+ {
+  "id": "hto",
+  "abbr": "HTO",
+  "full": "High Tibial Osteotomy",
+  "alt": [
+   "HighTibialOsteotomy"
+  ],
+  "note": "",
+  "ko": "근위 경골 절골술",
+  "tags": [
+   "수술명"
+  ],
+  "src": {
+   "page": 10,
+   "raw": "HighTibialOsteotomy"
+  }
+ },
+ {
+  "id": "h-vac",
+  "abbr": "H-vac",
+  "full": "hemovac",
+  "alt": [],
+  "note": "",
+  "ko": "헤모박(음압 배액관)",
+  "tags": [
+   "기타"
+  ],
+  "src": {
+   "page": 10,
+   "raw": "hemovac"
+  }
+ },
+ {
+  "id": "i-d",
+  "abbr": "I & D",
+  "full": "Incision & Drainage",
+  "alt": [],
+  "note": "",
+  "ko": "절개 및 배농",
+  "tags": [
+   "수술명"
+  ],
+  "src": {
+   "page": 10,
+   "raw": "Incision & Drainage"
+  }
+ },
+ {
+  "id": "i-f",
+  "abbr": "I/F",
+  "full": "Internal Fixation",
+  "alt": [],
+  "note": "",
+  "ko": "내고정",
+  "tags": [
+   "수술명"
+  ],
+  "src": {
+   "page": 10,
+   "raw": "Internal Fixation"
+  }
+ },
+ {
+  "id": "idk",
+  "abbr": "IDK",
+  "full": "Internal Derangement of knee",
+  "alt": [
+   "Internal Derangement(of knee)",
+   "Internal Derangement"
+  ],
+  "note": "원문 표기: Internal Derangement(of knee)",
+  "ko": "슬관절 내장증",
+  "tags": [
+   "골절·질환"
+  ],
+  "src": {
+   "page": 10,
+   "raw": "Internal Derangement(of knee)"
+  }
+ },
+ {
+  "id": "im-nail",
+  "abbr": "IM nail",
+  "full": "Intramedullary nail",
+  "alt": [],
+  "note": "",
+  "ko": "골수강내 금속정",
+  "tags": [
+   "수술명"
+  ],
+  "src": {
+   "page": 10,
+   "raw": "Intramedullary nail"
+  }
+ },
+ {
+  "id": "ioa",
+  "abbr": "IOA",
+  "full": "Intraoperative arthrography",
+  "alt": [],
+  "note": "",
+  "ko": "수술 중 관절조영술",
+  "tags": [
+   "검사·치료"
+  ],
+  "src": {
+   "page": 10,
+   "raw": "Intraoperative arthrography"
+  }
+ },
+ {
+  "id": "ir",
+  "abbr": "IR",
+  "full": "Internal Rotation",
+  "alt": [],
+  "note": "",
+  "ko": "내회전",
+  "tags": [
+   "기타"
+  ],
+  "src": {
+   "page": 10,
+   "raw": "Internal Rotation"
+  }
+ },
+ {
+  "id": "jp-drain",
+  "abbr": "JP drain",
+  "full": "Jackson Pratt drain",
+  "alt": [],
+  "note": "",
+  "ko": "잭슨-프랫 배액관",
+  "tags": [
+   "기타"
+  ],
+  "src": {
+   "page": 10,
+   "raw": "Jackson Pratt drain"
+  }
+ },
+ {
+  "id": "kj",
+  "abbr": "KJ",
+  "full": "Knee Jerk",
+  "alt": [],
+  "note": "",
+  "ko": "무릎 반사(슬개건 반사)",
+  "tags": [
+   "검사·치료"
+  ],
+  "src": {
+   "page": 10,
+   "raw": "Knee Jerk"
+  }
+ },
+ {
+  "id": "kt2000",
+  "abbr": "KT2000",
+  "full": "arthrometry",
+  "alt": [
+   "KT2000 arthrometry",
+   "(KT2000을 이용한) arthrometry"
+  ],
+  "note": "KT2000을 이용한 arthrometry",
+  "ko": "",
+  "tags": [
+   "검사·치료"
+  ],
+  "src": {
+   "page": 10,
+   "raw": "(KT2000을 이용한) arthrometry"
+  }
+ },
+ {
+  "id": "l-a-cast",
+  "abbr": "L/A cast",
+  "full": "Long arm cast",
+  "alt": [],
+  "note": "",
+  "ko": "장상지 석고붕대",
+  "tags": [
+   "깁스·보조기"
+  ],
+  "src": {
+   "page": 10,
+   "raw": "Long arm cast"
+  }
+ },
+ {
+  "id": "l-e",
+  "abbr": "L/E",
+  "full": "Lower Extremity",
+  "alt": [],
+  "note": "",
+  "ko": "하지",
+  "tags": [
+   "해부·근육"
+  ],
+  "src": {
+   "page": 10,
+   "raw": "Lower Extremity"
+  }
+ },
+ {
+  "id": "l-l-cast",
+  "abbr": "L/L cast",
+  "full": "Long leg cast",
+  "alt": [],
+  "note": "",
+  "ko": "장하지 석고붕대",
+  "tags": [
+   "깁스·보조기"
+  ],
+  "src": {
+   "page": 10,
+   "raw": "Long leg cast"
+  }
+ },
+ {
+  "id": "lbp",
+  "abbr": "LBP",
+  "full": "Low back pain",
+  "alt": [],
+  "note": "",
+  "ko": "요통",
+  "tags": [
+   "골절·질환"
+  ],
+  "src": {
+   "page": 10,
+   "raw": "Low back pain"
+  }
+ },
+ {
+  "id": "lcl",
+  "abbr": "LCL",
+  "full": "Lateral collateral ligament",
+  "alt": [
+   "Lateral collateral ligament (of knee)",
+   "Lateral collateral ligament of knee"
+  ],
+  "note": "(of knee)",
+  "ko": "외측 측부인대",
+  "tags": [
+   "해부·근육"
+  ],
+  "src": {
+   "page": 10,
+   "raw": "Lateral collateral ligament (of knee)"
+  }
+ },
+ {
+  "id": "lcp-s-ds",
+  "abbr": "LCP's ds",
+  "full": "Legg-Calvé-Perthes' Disease",
+  "alt": [],
+  "note": "",
+  "ko": "레그-칼베-페르테스병",
+  "tags": [
+   "골절·질환"
+  ],
+  "src": {
+   "page": 10,
+   "raw": "Legg-Calvé-Perthes' Disease"
+  }
+ },
+ {
+  "id": "lld",
+  "abbr": "LLD",
+  "full": "Leg length discrepancy",
+  "alt": [],
+  "note": "",
+  "ko": "하지 길이 차이",
+  "tags": [
+   "골절·질환"
+  ],
+  "src": {
+   "page": 10,
+   "raw": "Leg length discrepancy"
+  }
+ },
+ {
+  "id": "lm",
+  "abbr": "LM",
+  "full": "Lateral Meniscus",
+  "alt": [],
+  "note": "",
+  "ko": "외측 반월상연골",
+  "tags": [
+   "해부·근육"
+  ],
+  "src": {
+   "page": 10,
+   "raw": "Lateral Meniscus"
+  }
+ },
+ {
+  "id": "lom",
+  "abbr": "LOM",
+  "full": "Limitation of motion",
+  "alt": [],
+  "note": "",
+  "ko": "운동 제한",
+  "tags": [
+   "골절·질환"
+  ],
+  "src": {
+   "page": 10,
+   "raw": "Limitation of motion"
+  }
+ },
+ {
+  "id": "mcc",
+  "abbr": "MCC",
+  "full": "Midcalf Circumference",
+  "alt": [],
+  "note": "",
+  "ko": "종아리 중간 둘레",
+  "tags": [
+   "검사·치료"
+  ],
+  "src": {
+   "page": 10,
+   "raw": "Midcalf Circumference"
+  }
+ },
+ {
+  "id": "mcl",
+  "abbr": "MCL",
+  "full": "Medial collateral ligament",
+  "alt": [
+   "Medial collateral ligament (of knee)",
+   "Medial collateral ligament of knee"
+  ],
+  "note": "(of knee)",
+  "ko": "내측 측부인대",
+  "tags": [
+   "해부·근육"
+  ],
+  "src": {
+   "page": 10,
+   "raw": "Medial collateral ligament (of knee)"
+  }
+ },
+ {
+  "id": "mfh",
+  "abbr": "MFH",
+  "full": "Malignant Fibrous Histiocytoma",
+  "alt": [],
+  "note": "",
+  "ko": "악성 섬유성 조직구종",
+  "tags": [
+   "골절·질환"
+  ],
+  "src": {
+   "page": 10,
+   "raw": "Malignant Fibrous Histiocytoma"
+  }
+ },
+ {
+  "id": "mjlt",
+  "abbr": "MJLT",
+  "full": "Medial joint line tenderness",
+  "alt": [],
+  "note": "",
+  "ko": "내측 관절선 압통",
+  "tags": [
+   "검사·치료"
+  ],
+  "src": {
+   "page": 10,
+   "raw": "Medial joint line tenderness"
+  }
+ },
+ {
+  "id": "mm",
+  "abbr": "MM",
+  "full": "Medial Meniscus",
+  "alt": [],
+  "note": "",
+  "ko": "내측 반월상연골",
+  "tags": [
+   "해부·근육"
+  ],
+  "src": {
+   "page": 10,
+   "raw": "Medial Meniscus"
+  }
+ },
+ {
+  "id": "mt",
+  "abbr": "MT",
+  "full": "metatarsal",
+  "alt": [],
+  "note": "",
+  "ko": "중족골",
+  "tags": [
+   "해부·근육"
+  ],
+  "src": {
+   "page": 10,
+   "raw": "metatarsal"
+  }
+ },
+ {
+  "id": "mtc",
+  "abbr": "MTC",
+  "full": "Midthigh Circumference",
+  "alt": [],
+  "note": "",
+  "ko": "허벅지 중간 둘레",
+  "tags": [
+   "검사·치료"
+  ],
+  "src": {
+   "page": 10,
+   "raw": "Midthigh Circumference"
+  }
+ },
+ {
+  "id": "o-r-e-f",
+  "abbr": "O/R & E/F",
+  "full": "Open Reduction and External Fixation",
+  "alt": [],
+  "note": "",
+  "ko": "관혈적 정복 및 외고정술",
+  "tags": [
+   "수술명"
+  ],
+  "src": {
+   "page": 10,
+   "raw": "Open Reduction and External Fixation"
+  }
+ },
+ {
+  "id": "o-r-i-f",
+  "abbr": "O/R & I/F",
+  "full": "Open Reduction and Internal Fixation",
+  "alt": [],
+  "note": "",
+  "ko": "관혈적 정복 및 내고정술",
+  "tags": [
+   "수술명"
+  ],
+  "src": {
+   "page": 10,
+   "raw": "Open Reduction and Internal Fixation"
+  }
+ },
+ {
+  "id": "oa",
+  "abbr": "OA",
+  "full": "Osteoarthritis",
+  "alt": [],
+  "note": "",
+  "ko": "골관절염",
+  "tags": [
+   "골절·질환"
+  ],
+  "src": {
+   "page": 10,
+   "raw": "Osteoarthritis"
+  }
+ },
+ {
+  "id": "ocd",
+  "abbr": "OCD",
+  "full": "Osteochondritis dissecans",
+  "alt": [],
+  "note": "",
+  "ko": "박리성 골연골염",
+  "tags": [
+   "골절·질환"
+  ],
+  "src": {
+   "page": 10,
+   "raw": "Osteochondritis dissecans"
+  }
+ },
+ {
+  "id": "oi",
+  "abbr": "OI",
+  "full": "Osteogenesis Imperfecta",
+  "alt": [],
+  "note": "",
+  "ko": "골형성 부전증",
+  "tags": [
+   "골절·질환"
+  ],
+  "src": {
+   "page": 10,
+   "raw": "Osteogenesis Imperfecta"
+  }
+ },
+ {
+  "id": "oop",
+  "abbr": "OOP",
+  "full": "Out of plaster",
+  "alt": [
+   "Out of plaster(cast의 일부를 개방함)"
+  ],
+  "note": "cast의 일부를 개방함",
+  "ko": "석고붕대 일부 개방",
+  "tags": [
+   "깁스·보조기"
+  ],
+  "src": {
+   "page": 10,
+   "raw": "Out of plaster(cast의 일부를 개방함)"
+  }
+ },
+ {
+  "id": "opll",
+  "abbr": "OPLL",
+  "full": "Ossification of posterior longitudinal ligament",
+  "alt": [],
+  "note": "",
+  "ko": "후종인대 골화증",
+  "tags": [
+   "골절·질환"
+  ],
+  "src": {
+   "page": 10,
+   "raw": "Ossification of posterior longitudinal ligament"
+  }
+ },
+ {
+  "id": "or",
+  "abbr": "OR",
+  "full": "Open Reduction",
+  "alt": [],
+  "note": "",
+  "ko": "관혈적 정복",
+  "tags": [
+   "수술명"
+  ],
+  "src": {
+   "page": 10,
+   "raw": "Open Reduction"
+  }
+ },
+ {
+  "id": "osa",
+  "abbr": "OSA",
+  "full": "Osteosarcoma",
+  "alt": [],
+  "note": "",
+  "ko": "골육종",
+  "tags": [
+   "골절·질환"
+  ],
+  "src": {
+   "page": 10,
+   "raw": "Osteosarcoma"
+  }
+ },
+ {
+  "id": "pb",
+  "abbr": "PB",
+  "full": "Peroneus brevis",
+  "alt": [],
+  "note": "",
+  "ko": "단비골근",
+  "tags": [
+   "해부·근육"
+  ],
+  "src": {
+   "page": 10,
+   "raw": "Peroneus brevis"
+  }
+ },
+ {
+  "id": "p-bar-walking",
+  "abbr": "P-bar walking",
+  "full": "Parallel bar walking",
+  "alt": [],
+  "note": "",
+  "ko": "평행봉 보행",
+  "tags": [
+   "검사·치료"
+  ],
+  "src": {
+   "page": 10,
+   "raw": "Parallel bar walking"
+  }
+ },
+ {
+  "id": "pc-of-the-knee",
+  "abbr": "PC (of the knee)",
+  "full": "Posterior Capsulotomy",
+  "alt": [
+   "Posterior Capsulotomy (of the knee)",
+   "Posterior Capsulotomy of the knee"
+  ],
+  "note": "(of the knee)",
+  "ko": "(슬관절) 후방 관절낭 절개술",
+  "tags": [
+   "수술명"
+  ],
+  "src": {
+   "page": 10,
+   "raw": "Posterior Capsulotomy (of the knee)"
+  }
+ },
+ {
+  "id": "pca",
+  "abbr": "PCA",
+  "full": "patient controlled analgesia",
+  "alt": [],
+  "note": "",
+  "ko": "자가통증조절(PCA)",
+  "tags": [
+   "검사·치료"
+  ],
+  "src": {
+   "page": 10,
+   "raw": "patient controlled analgesia"
+  }
+ },
+ {
+  "id": "pcl",
+  "abbr": "PCL",
+  "full": "Posterior Cruciate Ligament",
+  "alt": [],
+  "note": "",
+  "ko": "후방십자인대",
+  "tags": [
+   "해부·근육"
+  ],
+  "src": {
+   "page": 10,
+   "raw": "Posterior Cruciate Ligament"
+  }
+ },
+ {
+  "id": "pct",
+  "abbr": "PCT",
+  "full": "Patella compression test",
+  "alt": [],
+  "note": "",
+  "ko": "슬개골 압박 검사",
+  "tags": [
+   "검사·치료"
+  ],
+  "src": {
+   "page": 10,
+   "raw": "Patella compression test"
+  }
+ },
+ {
+  "id": "pf-1",
+  "abbr": "PF",
+  "full": "Plantar Fasciotomy",
+  "alt": [],
+  "note": "",
+  "ko": "족저근막 절개술",
+  "tags": [
+   "수술명"
+  ],
+  "src": {
+   "page": 10,
+   "raw": "Plantar Fasciotomy"
+  }
+ },
+ {
+  "id": "pf-2",
+  "abbr": "PF",
+  "full": "Plantar flexion",
+  "alt": [],
+  "note": "",
+  "ko": "족저굴곡",
+  "tags": [
+   "기타"
+  ],
+  "src": {
+   "page": 10,
+   "raw": "Plantar flexion"
+  }
+ },
+ {
+  "id": "p-f-crep",
+  "abbr": "P-F crep",
+  "full": "Patellofemoral crepitus",
+  "alt": [],
+  "note": "",
+  "ko": "슬개대퇴 염발음",
+  "tags": [
+   "검사·치료"
+  ],
+  "src": {
+   "page": 10,
+   "raw": "Patellofemoral crepitus"
+  }
+ },
+ {
+  "id": "plif",
+  "abbr": "PLIF",
+  "full": "Posterior Lumbar interbody fusion",
+  "alt": [],
+  "note": "",
+  "ko": "후방 요추체간 유합술",
+  "tags": [
+   "수술명"
+  ],
+  "src": {
+   "page": 10,
+   "raw": "Posterior Lumbar interbody fusion"
+  }
+ },
+ {
+  "id": "pmd",
+  "abbr": "PMD",
+  "full": "Progressive muscular dystrophy",
+  "alt": [],
+  "note": "",
+  "ko": "진행성 근이영양증",
+  "tags": [
+   "골절·질환"
+  ],
+  "src": {
+   "page": 10,
+   "raw": "Progressive muscular dystrophy"
+  }
+ },
+ {
+  "id": "pod",
+  "abbr": "POD",
+  "full": "Postoperative Day",
+  "alt": [],
+  "note": "",
+  "ko": "수술 후 일수",
+  "tags": [
+   "기타"
+  ],
+  "src": {
+   "page": 10,
+   "raw": "Postoperative Day"
+  }
+ },
+ {
+  "id": "post-fusion",
+  "abbr": "Post. Fusion",
+  "full": "Posterior Fusion",
+  "alt": [],
+  "note": "",
+  "ko": "후방 유합술",
+  "tags": [
+   "수술명"
+  ],
+  "src": {
+   "page": 10,
+   "raw": "Posterior Fusion"
+  }
+ },
+ {
+  "id": "ptb-cast",
+  "abbr": "PTB cast",
+  "full": "Patella Tendon Bearing cast",
+  "alt": [],
+  "note": "",
+  "ko": "슬개건 체중부하 석고붕대",
+  "tags": [
+   "깁스·보조기"
+  ],
+  "src": {
+   "page": 10,
+   "raw": "Patella Tendon Bearing cast"
+  }
+ },
+ {
+  "id": "ptx",
+  "abbr": "PTx",
+  "full": "Physical therapy",
+  "alt": [],
+  "note": "",
+  "ko": "물리치료",
+  "tags": [
+   "검사·치료"
+  ],
+  "src": {
+   "page": 10,
+   "raw": "Physical therapy"
+  }
+ },
+ {
+  "id": "pvns",
+  "abbr": "PVNS",
+  "full": "Pigmented Villonodular synovitis",
+  "alt": [],
+  "note": "",
+  "ko": "색소 융모결절성 활막염",
+  "tags": [
+   "골절·질환"
+  ],
+  "src": {
+   "page": 10,
+   "raw": "Pigmented Villonodular synovitis"
+  }
+ },
+ {
+  "id": "pwb",
+  "abbr": "PWB",
+  "full": "Partial weight bearing",
+  "alt": [],
+  "note": "",
+  "ko": "부분 체중부하",
+  "tags": [
+   "검사·치료"
+  ],
+  "src": {
+   "page": 10,
+   "raw": "Partial weight bearing"
+  }
+ },
+ {
+  "id": "qse",
+  "abbr": "QSE",
+  "full": "Quadriceps setting exercise",
+  "alt": [],
+  "note": "",
+  "ko": "대퇴사두근 힘주기 운동",
+  "tags": [
+   "검사·치료"
+  ],
+  "src": {
+   "page": 10,
+   "raw": "Quadriceps setting exercise"
+  }
+ },
+ {
+  "id": "ra",
+  "abbr": "RA",
+  "full": "Rheumatoid Arthritis",
+  "alt": [],
+  "note": "",
+  "ko": "류마티스 관절염",
+  "tags": [
+   "골절·질환"
+  ],
+  "src": {
+   "page": 10,
+   "raw": "Rheumatoid Arthritis"
+  }
+ },
+ {
+  "id": "rct",
+  "abbr": "RCT",
+  "full": "Rotator cuff tear",
+  "alt": [],
+  "note": "",
+  "ko": "회전근개 파열",
+  "tags": [
+   "골절·질환"
+  ],
+  "src": {
+   "page": 10,
+   "raw": "Rotator cuff tear"
+  }
+ },
+ {
+  "id": "rd",
+  "abbr": "RD",
+  "full": "Radial deviation",
+  "alt": [],
+  "note": "",
+  "ko": "요측 편위",
+  "tags": [
+   "기타"
+  ],
+  "src": {
+   "page": 11,
+   "raw": "Radial deviation"
+  }
+ },
+ {
+  "id": "rev-thra",
+  "abbr": "Rev. THRA",
+  "full": "Revision of THRA",
+  "alt": [],
+  "note": "",
+  "ko": "고관절 전치환술 재수술",
+  "tags": [
+   "수술명"
+  ],
+  "src": {
+   "page": 11,
+   "raw": "Revision of THRA"
+  }
+ },
+ {
+  "id": "rev-tkra",
+  "abbr": "Rev. TKRA",
+  "full": "Revision of TKRA",
+  "alt": [],
+  "note": "",
+  "ko": "슬관절 전치환술 재수술",
+  "tags": [
+   "수술명"
+  ],
+  "src": {
+   "page": 11,
+   "raw": "Revision of TKRA"
+  }
+ },
+ {
+  "id": "rom",
+  "abbr": "ROM",
+  "full": "Range of motion",
+  "alt": [],
+  "note": "",
+  "ko": "관절가동범위",
+  "tags": [
+   "검사·치료"
+  ],
+  "src": {
+   "page": 11,
+   "raw": "Range of motion"
+  }
+ },
+ {
+  "id": "rp-1",
+  "abbr": "RP",
+  "full": "Radiating pain",
+  "alt": [],
+  "note": "",
+  "ko": "방사통",
+  "tags": [
+   "골절·질환"
+  ],
+  "src": {
+   "page": 11,
+   "raw": "Radiating pain"
+  }
+ },
+ {
+  "id": "rp-2",
+  "abbr": "RP",
+  "full": "Residual Poliomyelitis",
+  "alt": [],
+  "note": "",
+  "ko": "소아마비 후유증",
+  "tags": [
+   "골절·질환"
+  ],
+  "src": {
+   "page": 11,
+   "raw": "Residual Poliomyelitis"
+  }
+ },
+ {
+  "id": "rsd",
+  "abbr": "RSD",
+  "full": "Reflex sympathetic dystrophy",
+  "alt": [],
+  "note": "",
+  "ko": "반사성 교감신경 이영양증",
+  "tags": [
+   "골절·질환"
+  ],
+  "src": {
+   "page": 11,
+   "raw": "Reflex sympathetic dystrophy"
+  }
+ },
+ {
+  "id": "s-a-cast",
+  "abbr": "S/A cast",
+  "full": "Short arm cast",
+  "alt": [],
+  "note": "",
+  "ko": "단상지 석고붕대",
+  "tags": [
+   "깁스·보조기"
+  ],
+  "src": {
+   "page": 11,
+   "raw": "Short arm cast"
+  }
+ },
+ {
+  "id": "s-l-cast",
+  "abbr": "S/L cast",
+  "full": "Short leg cast",
+  "alt": [],
+  "note": "",
+  "ko": "단하지 석고붕대",
+  "tags": [
+   "깁스·보조기"
+  ],
+  "src": {
+   "page": 11,
+   "raw": "Short leg cast"
+  }
+ },
+ {
+  "id": "sbc",
+  "abbr": "SBC",
+  "full": "Solitary bone cyst",
+  "alt": [],
+  "note": "",
+  "ko": "단순(고립성) 골낭종",
+  "tags": [
+   "골절·질환"
+  ],
+  "src": {
+   "page": 11,
+   "raw": "Solitary bone cyst"
+  }
+ },
+ {
+  "id": "scm",
+  "abbr": "SCM",
+  "full": "Sternocleidomastoid Muscle",
+  "alt": [],
+  "note": "",
+  "ko": "흉쇄유돌근",
+  "tags": [
+   "해부·근육"
+  ],
+  "src": {
+   "page": 11,
+   "raw": "Sternocleidomastoid Muscle"
+  }
+ },
+ {
+  "id": "sco",
+  "abbr": "SCO",
+  "full": "Supracondylar Osteotomy",
+  "alt": [],
+  "note": "",
+  "ko": "과상부 절골술",
+  "tags": [
+   "수술명"
+  ],
+  "src": {
+   "page": 11,
+   "raw": "Supracondylar Osteotomy"
+  }
+ },
+ {
+  "id": "seq",
+  "abbr": "seq",
+  "full": "sequalae",
+  "alt": [],
+  "note": "",
+  "ko": "후유증",
+  "tags": [
+   "기타"
+  ],
+  "src": {
+   "page": 11,
+   "raw": "sequalae"
+  }
+ },
+ {
+  "id": "sia-ais",
+  "abbr": "SIA(AIS)",
+  "full": "Scoliosis Idiopathic Adolescent",
+  "alt": [
+   "Adolescent Idiopathic Scoliosis"
+  ],
+  "note": "AIS = Adolescent Idiopathic Scoliosis",
+  "ko": "청소년기 특발성 척추측만증",
+  "tags": [
+   "골절·질환"
+  ],
+  "src": {
+   "page": 11,
+   "raw": "Scoliosis Idiopathic Adolescent"
+  }
+ },
+ {
+  "id": "sii-iis",
+  "abbr": "SII(IIS)",
+  "full": "Scoliosis Idiopathic Infantile",
+  "alt": [
+   "Infantile Idiopathic Scoliosis"
+  ],
+  "note": "IIS = Infantile Idiopathic Scoliosis",
+  "ko": "영아기 특발성 척추측만증",
+  "tags": [
+   "골절·질환"
+  ],
+  "src": {
+   "page": 11,
+   "raw": "Scoliosis Idiopathic Infantile"
+  }
+ },
+ {
+  "id": "sij-jis",
+  "abbr": "SIJ(JIS)",
+  "full": "Scoliosis Idiopathic Juvenile",
+  "alt": [
+   "Juvenile Idiopathic Scoliosis"
+  ],
+  "note": "JIS = Juvenile Idiopathic Scoliosis",
+  "ko": "소아기 특발성 척추측만증",
+  "tags": [
+   "골절·질환"
+  ],
+  "src": {
+   "page": 11,
+   "raw": "Scoliosis Idiopathic Juvenile"
+  }
+ },
+ {
+  "id": "slap",
+  "abbr": "SLAP",
+  "full": "Superior Labrum Anterior to Posterior",
+  "alt": [],
+  "note": "",
+  "ko": "상부 관절와순 전후방 파열(SLAP 병변)",
+  "tags": [
+   "골절·질환"
+  ],
+  "src": {
+   "page": 11,
+   "raw": "Superior Labrum Anterior to Posterior"
+  }
+ },
+ {
+  "id": "slc",
+  "abbr": "SLC",
+  "full": "Single level corticotomy",
+  "alt": [],
+  "note": "",
+  "ko": "",
+  "tags": [
+   "수술명"
+  ],
+  "src": {
+   "page": 11,
+   "raw": "Single level corticotomy"
+  }
+ },
+ {
+  "id": "slr",
+  "abbr": "SLR",
+  "full": "Straight Leg Raising",
+  "alt": [],
+  "note": "",
+  "ko": "하지 직거상 검사",
+  "tags": [
+   "검사·치료"
+  ],
+  "src": {
+   "page": 11,
+   "raw": "Straight Leg Raising"
+  }
+ },
+ {
+  "id": "smc",
+  "abbr": "SMC",
+  "full": "Sensory Motor Circulation",
+  "alt": [],
+  "note": "",
+  "ko": "감각·운동·순환",
+  "tags": [
+   "검사·치료"
+  ],
+  "src": {
+   "page": 11,
+   "raw": "Sensory Motor Circulation"
+  }
+ },
+ {
+  "id": "smd",
+  "abbr": "SMD",
+  "full": "Spinomaleolar distance",
+  "alt": [],
+  "note": "",
+  "ko": "",
+  "tags": [
+   "검사·치료"
+  ],
+  "src": {
+   "page": 11,
+   "raw": "Spinomaleolar distance"
+  }
+ },
+ {
+  "id": "ss",
+  "abbr": "SS",
+  "full": "Spinal Stenosis",
+  "alt": [],
+  "note": "",
+  "ko": "척추관 협착증",
+  "tags": [
+   "골절·질환"
+  ],
+  "src": {
+   "page": 11,
+   "raw": "Spinal Stenosis"
+  }
+ },
+ {
+  "id": "stsg",
+  "abbr": "STSG",
+  "full": "Split Thickness Skin Graft",
+  "alt": [],
+  "note": "",
+  "ko": "부분층 피부이식",
+  "tags": [
+   "수술명"
+  ],
+  "src": {
+   "page": 11,
+   "raw": "Split Thickness Skin Graft"
+  }
+ },
+ {
+  "id": "ta-1",
+  "abbr": "TA",
+  "full": "Traffic accident",
+  "alt": [],
+  "note": "",
+  "ko": "교통사고",
+  "tags": [
+   "기타"
+  ],
+  "src": {
+   "page": 11,
+   "raw": "Traffic accident"
+  }
+ },
+ {
+  "id": "ta-2",
+  "abbr": "TA",
+  "full": "Tibialis Anterior muscle",
+  "alt": [],
+  "note": "",
+  "ko": "전경골근",
+  "tags": [
+   "해부·근육"
+  ],
+  "src": {
+   "page": 11,
+   "raw": "Tibialis Anterior muscle"
+  }
+ },
+ {
+  "id": "tb-spine",
+  "abbr": "Tb Spine",
+  "full": "Tuberculosis Spine",
+  "alt": [],
+  "note": "",
+  "ko": "척추 결핵",
+  "tags": [
+   "골절·질환"
+  ],
+  "src": {
+   "page": 11,
+   "raw": "Tuberculosis Spine"
+  }
+ },
+ {
+  "id": "tens",
+  "abbr": "TENS",
+  "full": "Transcutaneous Electric Nerve Stimulation",
+  "alt": [],
+  "note": "",
+  "ko": "경피적 전기신경자극",
+  "tags": [
+   "검사·치료"
+  ],
+  "src": {
+   "page": 11,
+   "raw": "Transcutaneous Electric Nerve Stimulation"
+  }
+ },
+ {
+  "id": "tera",
+  "abbr": "TERA",
+  "full": "Total Elbow Replacement Arthroplasty",
+  "alt": [],
+  "note": "",
+  "ko": "주관절 전치환술",
+  "tags": [
+   "수술명"
+  ],
+  "src": {
+   "page": 11,
+   "raw": "Total Elbow Replacement Arthroplasty"
+  }
+ },
+ {
+  "id": "t-f-crep",
+  "abbr": "T-F crep",
+  "full": "Tibiofemoral crepitus",
+  "alt": [],
+  "note": "",
+  "ko": "경대퇴 염발음",
+  "tags": [
+   "검사·치료"
+  ],
+  "src": {
+   "page": 11,
+   "raw": "Tibiofemoral crepitus"
+  }
+ },
+ {
+  "id": "thra",
+  "abbr": "THRA",
+  "full": "Total Hip Replacement Arthroplasty",
+  "alt": [],
+  "note": "",
+  "ko": "고관절 전치환술",
+  "tags": [
+   "수술명"
+  ],
+  "src": {
+   "page": 11,
+   "raw": "Total Hip Replacement Arthroplasty"
+  }
+ },
+ {
+  "id": "tj",
+  "abbr": "TJ",
+  "full": "Triceps brachii jerk",
+  "alt": [
+   "Tricepsbrachiijerk"
+  ],
+  "note": "",
+  "ko": "삼두근 반사",
+  "tags": [
+   "검사·치료"
+  ],
+  "src": {
+   "page": 11,
+   "raw": "Tricepsbrachiijerk"
+  }
+ },
+ {
+  "id": "tkra",
+  "abbr": "TKRA",
+  "full": "Total Knee Replacement Arthroplasty",
+  "alt": [],
+  "note": "",
+  "ko": "슬관절 전치환술",
+  "tags": [
+   "수술명"
+  ],
+  "src": {
+   "page": 11,
+   "raw": "Total Knee Replacement Arthroplasty"
+  }
+ },
+ {
+  "id": "tl",
+  "abbr": "TL",
+  "full": "Tibial lengthening",
+  "alt": [],
+  "note": "",
+  "ko": "경골 연장술",
+  "tags": [
+   "수술명"
+  ],
+  "src": {
+   "page": 11,
+   "raw": "Tibial lengthening"
+  }
+ },
+ {
+  "id": "tlso",
+  "abbr": "TLSO",
+  "full": "Thoracolumbosacral orthosis",
+  "alt": [],
+  "note": "",
+  "ko": "흉요천추 보조기",
+  "tags": [
+   "깁스·보조기"
+  ],
+  "src": {
+   "page": 11,
+   "raw": "Thoracolumbosacral orthosis"
+  }
+ },
+ {
+  "id": "tm",
+  "abbr": "Tm",
+  "full": "Tumor",
+  "alt": [],
+  "note": "",
+  "ko": "종양",
+  "tags": [
+   "골절·질환"
+  ],
+  "src": {
+   "page": 11,
+   "raw": "Tumor"
+  }
+ },
+ {
+  "id": "tp",
+  "abbr": "TP",
+  "full": "Tibialis posterior muscle",
+  "alt": [],
+  "note": "",
+  "ko": "후경골근",
+  "tags": [
+   "해부·근육"
+  ],
+  "src": {
+   "page": 11,
+   "raw": "Tibialis posterior muscle"
+  }
+ },
+ {
+  "id": "tp-transfer",
+  "abbr": "TP transfer",
+  "full": "Tendon Peronei Transfer to dorsum",
+  "alt": [
+   "TendonPeroneiTransfertodorsum"
+  ],
+  "note": "",
+  "ko": "",
+  "tags": [
+   "수술명"
+  ],
+  "src": {
+   "page": 11,
+   "raw": "TendonPeroneiTransfertodorsum"
+  }
+ },
+ {
+  "id": "tsra",
+  "abbr": "TSRA",
+  "full": "Total Shoulder Replacement Arthroplasty",
+  "alt": [],
+  "note": "",
+  "ko": "견관절 전치환술",
+  "tags": [
+   "수술명"
+  ],
+  "src": {
+   "page": 11,
+   "raw": "Total Shoulder Replacement Arthroplasty"
+  }
+ },
+ {
+  "id": "tsrh",
+  "abbr": "TSRH",
+  "full": "Texas Scottish Rite Hospital System",
+  "alt": [],
+  "note": "",
+  "ko": "",
+  "tags": [
+   "수술명"
+  ],
+  "src": {
+   "page": 11,
+   "raw": "Texas Scottish Rite Hospital System"
+  }
+ },
+ {
+  "id": "tt-fusion",
+  "abbr": "TT fusion",
+  "full": "Tibio Talar fusion",
+  "alt": [],
+  "note": "",
+  "ko": "경거관절 유합술",
+  "tags": [
+   "수술명"
+  ],
+  "src": {
+   "page": 11,
+   "raw": "Tibio Talar fusion"
+  }
+ },
+ {
+  "id": "t-table",
+  "abbr": "T-table",
+  "full": "Tilting table",
+  "alt": [
+   "Tiltingtable"
+  ],
+  "note": "",
+  "ko": "경사 테이블(기립 훈련대)",
+  "tags": [
+   "검사·치료"
+  ],
+  "src": {
+   "page": 11,
+   "raw": "Tiltingtable"
+  }
+ },
+ {
+  "id": "tts",
+  "abbr": "TTS",
+  "full": "Thomas Thomson operation",
+  "alt": [
+   "ThomasThomson(Strauber)operation",
+   "Thomas Thomson (Strauber) operation"
+  ],
+  "note": "원문: ThomasThomson(Strauber)operation",
+  "ko": "",
+  "tags": [
+   "수술명"
+  ],
+  "src": {
+   "page": 11,
+   "raw": "ThomasThomson(Strauber)operation"
+  }
+ },
+ {
+  "id": "u-e",
+  "abbr": "U/E",
+  "full": "Upper extremity",
+  "alt": [],
+  "note": "",
+  "ko": "상지",
+  "tags": [
+   "해부·근육"
+  ],
+  "src": {
+   "page": 11,
+   "raw": "Upper extremity"
+  }
+ },
+ {
+  "id": "ud",
+  "abbr": "UD",
+  "full": "Ulnar deviation",
+  "alt": [],
+  "note": "",
+  "ko": "척측 편위",
+  "tags": [
+   "기타"
+  ],
+  "src": {
+   "page": 11,
+   "raw": "Ulnar deviation"
+  }
+ },
+ {
+  "id": "uds",
+  "abbr": "UDS",
+  "full": "urodynamic study",
+  "alt": [],
+  "note": "",
+  "ko": "요역동학 검사",
+  "tags": [
+   "검사·치료"
+  ],
+  "src": {
+   "page": 11,
+   "raw": "urodynamic study"
+  }
+ },
+ {
+  "id": "umd",
+  "abbr": "UMD",
+  "full": "Umblicomaleolar Distance",
+  "alt": [],
+  "note": "",
+  "ko": "",
+  "tags": [
+   "검사·치료"
+  ],
+  "src": {
+   "page": 11,
+   "raw": "Umblicomaleolar Distance"
+  }
+ },
+ {
+  "id": "vic",
+  "abbr": "VIC",
+  "full": "Volkmann's Ischemic Contracture",
+  "alt": [],
+  "note": "",
+  "ko": "볼크만 허혈성 구축",
+  "tags": [
+   "골절·질환"
+  ],
+  "src": {
+   "page": 11,
+   "raw": "Volkmann's Ischemic Contracture"
+  }
+ },
+ {
+  "id": "w-a",
+  "abbr": "W/A",
+  "full": "Wheelchair ambulation",
+  "alt": [],
+  "note": "",
+  "ko": "휠체어 보행(이동)",
+  "tags": [
+   "깁스·보조기"
+  ],
+  "src": {
+   "page": 11,
+   "raw": "Wheelchair ambulation"
+  }
+ },
+ {
+  "id": "wd",
+  "abbr": "Wd",
+  "full": "Wound",
+  "alt": [],
+  "note": "",
+  "ko": "상처",
+  "tags": [
+   "기타"
+  ],
+  "src": {
+   "page": 11,
+   "raw": "Wound"
+  }
+ }
+]
