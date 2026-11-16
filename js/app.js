@@ -7,7 +7,7 @@ const $ = (id) => document.getElementById(id);
 // 과목(단원). 과목마다 데이터·분류·진행 상황·필터가 따로 관리된다.
 const SUBJECTS = {
   ortho: {
-    name: '정형외과',
+    name: '정형외과(OS)',
     file: 'data/ortho.json',
     tags: ['수술명', '골절·질환', '해부·근육', '검사·치료', '깁스·보조기', '기타'],
     source: '병동별 약어 자료 「정형외과 약어」',
