@@ -1,0 +1,468 @@
+[
+ {
+  "id": "agc",
+  "abbr": "AGC",
+  "full": "Advanced Gastric Cancer",
+  "alt": [],
+  "note": "",
+  "ko": "진행성 위암",
+  "tags": [
+   "암·종양"
+  ],
+  "src": {
+   "page": 1,
+   "raw": "Advanced Gastric Cancer"
+  }
+ },
+ {
+  "id": "egc",
+  "abbr": "EGC",
+  "full": "Early Gastric Cancer",
+  "alt": [],
+  "note": "",
+  "ko": "조기 위암",
+  "tags": [
+   "암·종양"
+  ],
+  "src": {
+   "page": 1,
+   "raw": "Early Gastric Cancer"
+  }
+ },
+ {
+  "id": "hcc",
+  "abbr": "HCC",
+  "full": "Hepatocellular Carcinoma",
+  "alt": [],
+  "note": "",
+  "ko": "간세포암",
+  "tags": [
+   "암·종양"
+  ],
+  "src": {
+   "page": 1,
+   "raw": "Hepatocellular Carcinoma"
+  }
+ },
+ {
+  "id": "lc",
+  "abbr": "LC",
+  "full": "Liver Cirrhosis",
+  "alt": [],
+  "note": "",
+  "ko": "간경변증",
+  "tags": [
+   "질환·감염"
+  ],
+  "src": {
+   "page": 1,
+   "raw": "Liver Cirrhosis"
+  }
+ },
+ {
+  "id": "chb",
+  "abbr": "CHB",
+  "full": "Chronic Hepatitis B",
+  "alt": [],
+  "note": "",
+  "ko": "만성 B형 간염",
+  "tags": [
+   "질환·감염"
+  ],
+  "src": {
+   "page": 1,
+   "raw": "Chronic Hepatitis B"
+  }
+ },
+ {
+  "id": "hcv",
+  "abbr": "HCV",
+  "full": "Hepatitis C Virus",
+  "alt": [],
+  "note": "",
+  "ko": "C형 간염 바이러스",
+  "tags": [
+   "질환·감염"
+  ],
+  "src": {
+   "page": 1,
+   "raw": "Hepatitis C Virus"
+  }
+ },
+ {
+  "id": "ge-reflux",
+  "abbr": "GE reflux",
+  "full": "Gastroesophageal Reflux",
+  "alt": [
+   "Gastro-esophageal Reflux"
+  ],
+  "note": "",
+  "ko": "위식도 역류",
+  "tags": [
+   "질환·감염"
+  ],
+  "src": {
+   "page": 1,
+   "raw": "Gastroesophageal Reflux"
+  }
+ },
+ {
+  "id": "gist",
+  "abbr": "GIST",
+  "full": "Gastrointestinal Stromal Tumor",
+  "alt": [
+   "Gastrointestinal Stromal Tumour"
+  ],
+  "note": "",
+  "ko": "위장관 기질 종양",
+  "tags": [
+   "암·종양"
+  ],
+  "src": {
+   "page": 1,
+   "raw": "Gastrointestinal Stromal Tumor"
+  }
+ },
+ {
+  "id": "fap",
+  "abbr": "FAP",
+  "full": "Familial Adenomatous Polyposis",
+  "alt": [],
+  "note": "",
+  "ko": "가족성 선종성 용종증",
+  "tags": [
+   "암·종양"
+  ],
+  "src": {
+   "page": 1,
+   "raw": "Familial Adenomatous Polyposis"
+  }
+ },
+ {
+  "id": "hnpcc",
+  "abbr": "HNPCC",
+  "full": "Hereditary Nonpolyposis Colorectal Cancer",
+  "alt": [],
+  "note": "",
+  "ko": "유전성 비폴립성 대장암",
+  "tags": [
+   "암·종양"
+  ],
+  "src": {
+   "page": 1,
+   "raw": "Hereditary Nonpolyposis Colorectal Cancer"
+  }
+ },
+ {
+  "id": "ercp",
+  "abbr": "ERCP",
+  "full": "Endoscopic Retrograde Cholangio-Pancreatography",
+  "alt": [],
+  "note": "",
+  "ko": "내시경적 역행성 담췌관 조영술",
+  "tags": [
+   "검사·시술"
+  ],
+  "src": {
+   "page": 1,
+   "raw": "Endoscopic Retrograde Cholangio-Pancreatography"
+  }
+ },
+ {
+  "id": "ptbd",
+  "abbr": "PTBD",
+  "full": "Percutaneous Transhepatic Biliary Drainage",
+  "alt": [],
+  "note": "",
+  "ko": "경피적 간담즙 배액술",
+  "tags": [
+   "검사·시술"
+  ],
+  "src": {
+   "page": 1,
+   "raw": "Percutaneous Transhepatic Biliary Drainage"
+  }
+ },
+ {
+  "id": "e-j",
+  "abbr": "E-J",
+  "full": "Esophagojejunostomy",
+  "alt": [],
+  "note": "",
+  "ko": "식도공장문합술",
+  "tags": [
+   "수술명"
+  ],
+  "src": {
+   "page": 1,
+   "raw": "Esophagojejunostomy"
+  }
+ },
+ {
+  "id": "g-j",
+  "abbr": "G-J",
+  "full": "Gastrojejunostomy",
+  "alt": [],
+  "note": "",
+  "ko": "위공장문합술",
+  "tags": [
+   "수술명"
+  ],
+  "src": {
+   "page": 1,
+   "raw": "Gastrojejunostomy"
+  }
+ },
+ {
+  "id": "tg",
+  "abbr": "TG",
+  "full": "Total Gastrectomy",
+  "alt": [],
+  "note": "",
+  "ko": "위 전절제술",
+  "tags": [
+   "수술명"
+  ],
+  "src": {
+   "page": 1,
+   "raw": "Total Gastrectomy"
+  }
+ },
+ {
+  "id": "stg",
+  "abbr": "STG",
+  "full": "Subtotal Gastrectomy",
+  "alt": [],
+  "note": "",
+  "ko": "위 아전절제술",
+  "tags": [
+   "수술명"
+  ],
+  "src": {
+   "page": 1,
+   "raw": "Subtotal Gastrectomy"
+  }
+ },
+ {
+  "id": "rsg",
+  "abbr": "RSG",
+  "full": "Radical Subtotal Gastrectomy",
+  "alt": [],
+  "note": "",
+  "ko": "근치적 위 아전절제술",
+  "tags": [
+   "수술명"
+  ],
+  "src": {
+   "page": 1,
+   "raw": "Radical Subtotal Gastrectomy"
+  }
+ },
+ {
+  "id": "tace",
+  "abbr": "TACE",
+  "full": "Transcatheter Arterial Chemoembolization",
+  "alt": [],
+  "note": "",
+  "ko": "간동맥 화학색전술",
+  "tags": [
+   "검사·시술"
+  ],
+  "src": {
+   "page": 1,
+   "raw": "Transcatheter Arterial Chemoembolization"
+  }
+ },
+ {
+  "id": "pppd",
+  "abbr": "PPPD",
+  "full": "Pylorus Preserving Pancreaticoduodenectomy",
+  "alt": [
+   "Pylorus Preserving Pancreatoduodenectomy"
+  ],
+  "note": "",
+  "ko": "유문부 보존 췌장십이지장절제술",
+  "tags": [
+   "수술명"
+  ],
+  "src": {
+   "page": 1,
+   "raw": "Pylorus Preserving Pancreaticoduodenectomy"
+  }
+ },
+ {
+  "id": "cea",
+  "abbr": "CEA",
+  "full": "Carcinoembryonic Antigen",
+  "alt": [],
+  "note": "",
+  "ko": "종양표지자 (대장암 등)",
+  "tags": [
+   "검사·시술"
+  ],
+  "src": {
+   "page": 1,
+   "raw": "Carcinoembryonic Antigen"
+  }
+ },
+ {
+  "id": "ca",
+  "abbr": "CA",
+  "full": "Carbohydrate Antigen",
+  "alt": [],
+  "note": "예: CA 19-9, CA 125",
+  "ko": "종양표지자 (췌장암, 담도암 등)",
+  "tags": [
+   "검사·시술"
+  ],
+  "src": {
+   "page": 1,
+   "raw": "Carbohydrate Antigen"
+  }
+ },
+ {
+  "id": "capd",
+  "abbr": "CAPD",
+  "full": "Continuous Ambulatory Peritoneal Dialysis",
+  "alt": [],
+  "note": "",
+  "ko": "지속적 외래 복막투석",
+  "tags": [
+   "검사·시술"
+  ],
+  "src": {
+   "page": 1,
+   "raw": "Continuous Ambulatory Peritoneal Dialysis"
+  }
+ },
+ {
+  "id": "pcd",
+  "abbr": "PCD",
+  "full": "Percutaneous Catheter Drainage",
+  "alt": [],
+  "note": "",
+  "ko": "경피적 배액술",
+  "tags": [
+   "검사·시술"
+  ],
+  "src": {
+   "page": 1,
+   "raw": "Percutaneous Catheter Drainage"
+  }
+ },
+ {
+  "id": "ipmt",
+  "abbr": "IPMT",
+  "full": "Intraductal Papillary Mucinous Tumor",
+  "alt": [
+   "Intraductal Papillary Mucinous Tumour"
+  ],
+  "note": "",
+  "ko": "췌장 점액성 종양",
+  "tags": [
+   "암·종양"
+  ],
+  "src": {
+   "page": 1,
+   "raw": "Intraductal Papillary Mucinous Tumor"
+  }
+ },
+ {
+  "id": "dvt",
+  "abbr": "DVT",
+  "full": "Deep Vein Thrombosis",
+  "alt": [
+   "Deep Venous Thrombosis"
+  ],
+  "note": "",
+  "ko": "심부정맥혈전증",
+  "tags": [
+   "질환·감염"
+  ],
+  "src": {
+   "page": 1,
+   "raw": "Deep Vein Thrombosis"
+  }
+ },
+ {
+  "id": "lt",
+  "abbr": "LT",
+  "full": "Liver Transplantation",
+  "alt": [
+   "Liver Transplant"
+  ],
+  "note": "",
+  "ko": "간이식",
+  "tags": [
+   "수술명"
+  ],
+  "src": {
+   "page": 1,
+   "raw": "Liver Transplantation"
+  }
+ },
+ {
+  "id": "cmv",
+  "abbr": "CMV",
+  "full": "Cytomegalovirus Infection",
+  "alt": [
+   "Cytomegalovirus"
+  ],
+  "note": "",
+  "ko": "거대세포바이러스 감염",
+  "tags": [
+   "질환·감염"
+  ],
+  "src": {
+   "page": 1,
+   "raw": "Cytomegalovirus Infection"
+  }
+ },
+ {
+  "id": "muo",
+  "abbr": "MUO",
+  "full": "Metastasis of Unknown Origin",
+  "alt": [],
+  "note": "",
+  "ko": "원발 불명의 전이암",
+  "tags": [
+   "암·종양"
+  ],
+  "src": {
+   "page": 1,
+   "raw": "Metastasis of Unknown Origin"
+  }
+ },
+ {
+  "id": "uri",
+  "abbr": "URI",
+  "full": "Upper Respiratory Infection",
+  "alt": [
+   "Upper Respiratory Tract Infection"
+  ],
+  "note": "",
+  "ko": "상기도 감염",
+  "tags": [
+   "질환·감염"
+  ],
+  "src": {
+   "page": 1,
+   "raw": "Upper Respiratory Infection"
+  }
+ },
+ {
+  "id": "cbd",
+  "abbr": "CBD",
+  "full": "Common Bile Duct",
+  "alt": [],
+  "note": "",
+  "ko": "총담관",
+  "tags": [
+   "기타"
+  ],
+  "src": {
+   "page": 1,
+   "raw": "Common Bile Duct"
+  }
+ }
+]

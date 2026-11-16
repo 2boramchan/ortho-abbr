@@ -56,6 +56,18 @@ button kbd { background: transparent; border-color: currentColor; opacity: .7; }
 /* 헤더 */
 .top { background: var(--surface); border-bottom: 1px solid var(--border); position: sticky; top: 0; z-index: 5; }
 .top-row { display: flex; align-items: center; justify-content: space-between; padding-top: 12px; padding-bottom: 8px; }
+.top-row { gap: 12px; }
+.subjects {
+  display: inline-flex; padding: 3px; gap: 2px; border-radius: 999px;
+  background: var(--surface-2); border: 1px solid var(--border); min-width: 0;
+}
+.subjects button {
+  border: 0; background: none; color: var(--muted); font-weight: 700; font-size: .95rem;
+  padding: 6px 14px; border-radius: 999px; white-space: nowrap;
+}
+.subjects button[aria-pressed="true"] { background: var(--accent); color: var(--accent-text); }
+.subjects button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+@media (max-width: 380px) { .subjects button { padding: 6px 10px; font-size: .9rem; } }
 .tabs { display: flex; gap: 4px; }
 .tabs button {
   flex: 1; border: 0; background: none; color: var(--muted); font: inherit; font-weight: 600;

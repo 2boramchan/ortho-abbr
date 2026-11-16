@@ -4,7 +4,23 @@ import { blank, weightOf, promote, demote, weightedShuffle, shuffle } from './le
 
 const $ = (id) => document.getElementById(id);
 
-const TAGS = ['수술명', '골절·질환', '해부·근육', '검사·치료', '깁스·보조기', '기타'];
+// 과목(단원). 과목마다 데이터·분류·진행 상황·필터가 따로 관리된다.
+const SUBJECTS = {
+  ortho: {
+    name: '정형외과',
+    file: 'data/ortho.json',
+    tags: ['수술명', '골절·질환', '해부·근육', '검사·치료', '깁스·보조기', '기타'],
+    source: '병동별 약어 자료 「정형외과 약어」',
+  },
+  gs: {
+    name: '외과(GS)',
+    file: 'data/gs.json',
+    tags: ['암·종양', '질환·감염', '수술명', '검사·시술', '기타'],
+    source: '「Essential Medical Abbreviations for GS Wards」',
+  },
+};
+const SUBJECT_IDS = Object.keys(SUBJECTS);
+const blankFilters = () => ({ status: 'all', range: 'all', tags: [] });
 const RANGES = [
   { id: 'all', label: '전체', test: () => true },
   { id: 'a-c', label: 'A–C', test: (c) => c >= 'A' && c <= 'C' },
@@ -22,11 +38,15 @@ const THEMES = ['auto', 'light', 'dark'];
 const THEME_LABEL = { auto: '자동', light: '라이트', dark: '다크' };
 
 const S = {
+  subject: 'ortho',
+  perSubject: {}, // { [과목]: { progress, filters } }
+  cache: {},      // { [과목]: 불러온 데이터 }
+  loadToken: 0,
   data: [],
   byAbbr: new Map(),
   progress: {},
-  filters: { status: 'all', range: 'all', tags: [] },
-  settings: { theme: 'auto', shuffle: false, quizLen: 20 },
+  filters: blankFilters(),
+  settings: { theme: 'auto', shuffle: false, quizLen: 20, subject: 'ortho' },
   view: 'cards',
   cards: { order: [], idx: 0, flipped: false },
   quiz: null,
@@ -34,7 +54,8 @@ const S = {
 
 /* ---------- 저장 ---------- */
 function persist() {
-  const ok = store.save({ progress: S.progress, filters: S.filters, settings: S.settings });
+  S.perSubject[S.subject] = { progress: S.progress, filters: S.filters };
+  const ok = store.save({ subjects: S.perSubject, settings: S.settings });
   $('storage-warning').hidden = ok;
 }
 function prog(id) {
@@ -85,7 +106,7 @@ function renderFilters() {
     chip(r.label, f.range === r.id, () => setFilter({ range: r.id }), countWith({ range: r.id }))));
   $('f-tags').replaceChildren(
     chip('전체', f.tags.length === 0, () => setFilter({ tags: [] })),
-    ...TAGS.map((t) => chip(t, f.tags.includes(t), () => {
+    ...SUBJECTS[S.subject].tags.map((t) => chip(t, f.tags.includes(t), () => {
       const tags = f.tags.includes(t) ? f.tags.filter((x) => x !== t) : [...f.tags, t];
       setFilter({ tags });
     }, S.data.filter((e) => e.tags.includes(t)).length)),
@@ -407,7 +428,7 @@ function bind() {
     persist();
   });
   $('reset').addEventListener('click', () => {
-    if (!confirm('외웠어요/헷갈려요 표시와 퀴즈 기록을 모두 지울까요?')) return;
+    if (!confirm(`${SUBJECTS[S.subject].name}의 외웠어요/헷갈려요 표시와 퀴즈 기록을 모두 지울까요?`)) return;
     S.progress = {};
     persist();
     renderFilters();
@@ -462,36 +483,96 @@ function bind() {
   });
 }
 
+/* ---------- 과목 ---------- */
+function renderSubjects() {
+  for (const b of document.querySelectorAll('#subjects button')) {
+    b.setAttribute('aria-pressed', String(b.dataset.subject === S.subject));
+  }
+  const sub = SUBJECTS[S.subject];
+  document.title = `${sub.name} 약어`;
+  $('source').textContent = `출처: ${sub.source} ${S.data.length || ''}개 · 진행 상황은 이 브라우저에만 저장돼요.`;
+}
+
+function quizInProgress() {
+  const q = S.quiz;
+  return q && (q.phase === 'ask' || q.phase === 'answered') && (q.i > 0 || q.phase === 'answered');
+}
+
+async function setSubject(id, { force = false } = {}) {
+  if (!SUBJECTS[id]) id = 'ortho';
+  if (id === S.subject && !force) return;
+  if (!force && quizInProgress() && !confirm('진행 중인 퀴즈가 있어요. 과목을 바꾸면 이 퀴즈는 끝나요. 바꿀까요?')) return;
+
+  S.subject = id;
+  S.settings.subject = id;
+  const saved = S.perSubject[id] || {};
+  S.progress = saved.progress || {};
+  S.filters = { ...blankFilters(), ...(saved.filters || {}) };
+  const tags = SUBJECTS[id].tags;
+  S.filters.tags = S.filters.tags.filter((t) => tags.includes(t));
+  S.quiz = null;
+  S.cards = { order: [], idx: 0, flipped: false };
+  S.data = [];
+  S.byAbbr = new Map();
+  if (location.hash !== `#${id}`) history.replaceState(null, '', `#${id}`);
+  renderSubjects();
+  persist();
+
+  const token = ++S.loadToken;
+  let data = S.cache[id];
+  if (!data) {
+    try {
+      const res = await fetch(SUBJECTS[id].file);
+      if (!res.ok) throw new Error(res.status);
+      data = S.cache[id] = await res.json();
+    } catch (err) {
+      if (token !== S.loadToken) return;
+      const el = $('load-error');
+      el.hidden = false;
+      el.textContent = `데이터(${SUBJECTS[id].file})를 불러오지 못했어요. index.html을 파일로 직접 열면 브라우저가 막습니다. README의 "로컬 실행" 방법대로 간단한 서버로 열어 주세요.`;
+      $('view-cards').hidden = true;
+      $('view-quiz').hidden = true;
+      return;
+    }
+  }
+  if (token !== S.loadToken) return; // 그 사이 다른 과목으로 바뀜
+  $('load-error').hidden = true;
+  S.data = data;
+  for (const e of S.data) {
+    if (!S.byAbbr.has(e.abbr)) S.byAbbr.set(e.abbr, []);
+    S.byAbbr.get(e.abbr).push(e);
+  }
+  renderSubjects();
+  renderFilters();
+  rebuildCards();
+  setView(S.view);
+}
+
 /* ---------- 시작 ---------- */
 async function init() {
   const saved = store.load();
   if (saved) {
-    S.progress = saved.progress || {};
-    Object.assign(S.filters, saved.filters || {});
+    if (saved.subjects) S.perSubject = saved.subjects;
+    else if (saved.progress || saved.filters) {
+      // 예전(정형외과만 있던) 저장 형식 → 정형외과 기록으로 옮김
+      S.perSubject = { ortho: { progress: saved.progress || {}, filters: saved.filters || blankFilters() } };
+    }
     Object.assign(S.settings, saved.settings || {});
   }
   applyTheme();
   $('shuffle').checked = S.settings.shuffle;
   bind();
+  for (const b of document.querySelectorAll('#subjects button')) {
+    b.addEventListener('click', () => setSubject(b.dataset.subject));
+  }
+  window.addEventListener('hashchange', () => {
+    const h = location.hash.slice(1);
+    if (SUBJECTS[h] && h !== S.subject) setSubject(h);
+  });
 
-  try {
-    const res = await fetch('data/ortho.json');
-    if (!res.ok) throw new Error(res.status);
-    S.data = await res.json();
-  } catch (err) {
-    const el = $('load-error');
-    el.hidden = false;
-    el.textContent = '데이터(data/ortho.json)를 불러오지 못했어요. index.html을 파일로 직접 열면 브라우저가 막습니다. README의 "로컬 실행" 방법대로 간단한 서버로 열어 주세요.';
-    $('view-cards').hidden = true;
-    return;
-  }
-  for (const e of S.data) {
-    if (!S.byAbbr.has(e.abbr)) S.byAbbr.set(e.abbr, []);
-    S.byAbbr.get(e.abbr).push(e);
-  }
-  renderFilters();
-  rebuildCards();
-  setView('cards');
+  const fromHash = location.hash.slice(1);
+  const first = SUBJECTS[fromHash] ? fromHash : (SUBJECTS[S.settings.subject] ? S.settings.subject : 'ortho');
+  await setSubject(first, { force: true });
 }
 
 init();

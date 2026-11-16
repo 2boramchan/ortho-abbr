@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>정형외과 약어</title>
-  <meta name="description" content="간호대 학생을 위한 정형외과 의학 약어 단어장과 주관식 퀴즈">
+  <title>병동 약어</title>
+  <meta name="description" content="간호대 학생을 위한 병동 의학 약어(정형외과·외과 GS) 단어장과 주관식 퀴즈">
   <meta name="color-scheme" content="light dark">
   <link rel="stylesheet" href="css/style.css">
   <script>
@@ -19,7 +19,11 @@
 <body>
   <header class="top">
     <div class="wrap top-row">
-      <h1>정형외과 약어</h1>
+      <h1 class="sr-only">병동 약어</h1>
+      <div class="subjects" id="subjects" role="group" aria-label="과목">
+        <button type="button" data-subject="ortho" aria-pressed="true">정형외과</button>
+        <button type="button" data-subject="gs" aria-pressed="false">외과(GS)</button>
+      </div>
       <button id="theme" class="ghost small" type="button" aria-label="테마 전환">테마: 자동</button>
     </div>
     <div class="wrap">
@@ -153,7 +157,7 @@
   </main>
 
   <footer class="wrap muted small-text">
-    출처: 병동별 약어 자료 「정형외과 약어」 167개 · 진행 상황은 이 브라우저에만 저장돼요.
+    <span id="source"></span>
   </footer>
 </body>
 </html>
