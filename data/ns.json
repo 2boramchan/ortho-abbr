@@ -1,0 +1,630 @@
+[
+ {
+  "id": "ac",
+  "abbr": "AC",
+  "full": "Arachnoid Cyst",
+  "alt": [],
+  "note": "",
+  "ko": "거미막낭(지주막낭종)",
+  "tags": [
+   "질환·종양"
+  ],
+  "src": {
+   "page": 1,
+   "raw": "Arachnoid Cyst"
+  }
+ },
+ {
+  "id": "aca",
+  "abbr": "ACA",
+  "full": "Anterior Cerebral Artery",
+  "alt": [],
+  "note": "",
+  "ko": "전대뇌동맥",
+  "tags": [
+   "해부·기타"
+  ],
+  "src": {
+   "page": 1,
+   "raw": "Anterior Cerebral Artery"
+  }
+ },
+ {
+  "id": "aed",
+  "abbr": "AED",
+  "full": "Antiepileptic Drug",
+  "alt": [],
+  "note": "",
+  "ko": "항경련제(항뇌전증약)",
+  "tags": [
+   "검사·시술·약물"
+  ],
+  "src": {
+   "page": 1,
+   "raw": "Antiepileptic Drug"
+  }
+ },
+ {
+  "id": "asdh",
+  "abbr": "ASDH",
+  "full": "Acute Subdural Hemorrhage",
+  "alt": [
+   "Acute Subdural Hematoma"
+  ],
+  "note": "hemorrhage 또는 hematoma",
+  "ko": "급성 경막하 출혈(혈종)",
+  "tags": [
+   "뇌출혈·뇌혈관"
+  ],
+  "src": {
+   "page": 1,
+   "raw": "Acute Subdural Hemorrhage"
+  }
+ },
+ {
+  "id": "avf",
+  "abbr": "AVF",
+  "full": "Arteriovenous Fistula",
+  "alt": [],
+  "note": "",
+  "ko": "동정맥루",
+  "tags": [
+   "뇌출혈·뇌혈관"
+  ],
+  "src": {
+   "page": 1,
+   "raw": "Arteriovenous Fistula"
+  }
+ },
+ {
+  "id": "bp",
+  "abbr": "BP",
+  "full": "Bell's Palsy",
+  "alt": [],
+  "note": "",
+  "ko": "벨 마비(안면신경마비)",
+  "tags": [
+   "질환·종양"
+  ],
+  "src": {
+   "page": 1,
+   "raw": "Bell's Palsy"
+  }
+ },
+ {
+  "id": "bt",
+  "abbr": "BT",
+  "full": "Brain Tumor",
+  "alt": [
+   "Brain Tumour"
+  ],
+  "note": "",
+  "ko": "뇌종양",
+  "tags": [
+   "질환·종양"
+  ],
+  "src": {
+   "page": 1,
+   "raw": "Brain Tumor"
+  }
+ },
+ {
+  "id": "cne",
+  "abbr": "CNE",
+  "full": "Cranial Nerve Examination",
+  "alt": [],
+  "note": "",
+  "ko": "뇌신경 검사",
+  "tags": [
+   "검사·시술·약물"
+  ],
+  "src": {
+   "page": 1,
+   "raw": "Cranial Nerve Examination"
+  }
+ },
+ {
+  "id": "cns",
+  "abbr": "CNS",
+  "full": "Central Nervous System",
+  "alt": [],
+  "note": "",
+  "ko": "중추신경계",
+  "tags": [
+   "해부·기타"
+  ],
+  "src": {
+   "page": 1,
+   "raw": "Central Nervous System"
+  }
+ },
+ {
+  "id": "cp",
+  "abbr": "CP",
+  "full": "Cerebral Palsy",
+  "alt": [],
+  "note": "",
+  "ko": "뇌성마비",
+  "tags": [
+   "질환·종양"
+  ],
+  "src": {
+   "page": 1,
+   "raw": "Cerebral Palsy"
+  }
+ },
+ {
+  "id": "csf",
+  "abbr": "CSF",
+  "full": "Cerebrospinal Fluid",
+  "alt": [],
+  "note": "",
+  "ko": "뇌척수액",
+  "tags": [
+   "해부·기타"
+  ],
+  "src": {
+   "page": 1,
+   "raw": "Cerebrospinal Fluid"
+  }
+ },
+ {
+  "id": "cva",
+  "abbr": "CVA",
+  "full": "Cerebrovascular Accident",
+  "alt": [],
+  "note": "",
+  "ko": "뇌혈관 사고(뇌졸중)",
+  "tags": [
+   "뇌출혈·뇌혈관"
+  ],
+  "src": {
+   "page": 1,
+   "raw": "Cerebrovascular Accident"
+  }
+ },
+ {
+  "id": "di",
+  "abbr": "DI",
+  "full": "Diabetes Insipidus",
+  "alt": [],
+  "note": "",
+  "ko": "요붕증",
+  "tags": [
+   "질환·종양"
+  ],
+  "src": {
+   "page": 1,
+   "raw": "Diabetes Insipidus"
+  }
+ },
+ {
+  "id": "edh",
+  "abbr": "EDH",
+  "full": "Epidural Hemorrhage",
+  "alt": [
+   "Epidural Hematoma"
+  ],
+  "note": "hemorrhage 또는 hematoma",
+  "ko": "경막외 출혈(혈종)",
+  "tags": [
+   "뇌출혈·뇌혈관"
+  ],
+  "src": {
+   "page": 1,
+   "raw": "Epidural Hemorrhage"
+  }
+ },
+ {
+  "id": "eeg",
+  "abbr": "EEG",
+  "full": "Electroencephalography",
+  "alt": [
+   "Electroencephalogram"
+  ],
+  "note": "",
+  "ko": "뇌파 검사",
+  "tags": [
+   "검사·시술·약물"
+  ],
+  "src": {
+   "page": 1,
+   "raw": "Electroencephalography"
+  }
+ },
+ {
+  "id": "eom",
+  "abbr": "EOM",
+  "full": "Extraocular Muscle Movement",
+  "alt": [
+   "Extraocular Movement",
+   "Extraocular Muscle Movements"
+  ],
+  "note": "",
+  "ko": "외안근 운동",
+  "tags": [
+   "검사·시술·약물"
+  ],
+  "src": {
+   "page": 1,
+   "raw": "Extraocular Muscle Movement"
+  }
+ },
+ {
+  "id": "evd",
+  "abbr": "EVD",
+  "full": "External Ventricular Drain",
+  "alt": [
+   "External Ventricular Drainage"
+  ],
+  "note": "",
+  "ko": "뇌실외 배액(관)",
+  "tags": [
+   "검사·시술·약물"
+  ],
+  "src": {
+   "page": 1,
+   "raw": "External Ventricular Drain"
+  }
+ },
+ {
+  "id": "hcp",
+  "abbr": "HCP",
+  "full": "Hydrocephalus",
+  "alt": [],
+  "note": "",
+  "ko": "수두증",
+  "tags": [
+   "질환·종양"
+  ],
+  "src": {
+   "page": 1,
+   "raw": "Hydrocephalus"
+  }
+ },
+ {
+  "id": "hivd",
+  "abbr": "HIVD",
+  "full": "Herniated Intervertebral Disk",
+  "alt": [
+   "Herniated Intervertebral Disc"
+  ],
+  "note": "",
+  "ko": "추간판 탈출증(디스크)",
+  "tags": [
+   "질환·종양"
+  ],
+  "src": {
+   "page": 1,
+   "raw": "Herniated Intervertebral Disk"
+  }
+ },
+ {
+  "id": "ie",
+  "abbr": "IE",
+  "full": "Infective Endocarditis",
+  "alt": [],
+  "note": "",
+  "ko": "감염성 심내막염",
+  "tags": [
+   "질환·종양"
+  ],
+  "src": {
+   "page": 1,
+   "raw": "Infective Endocarditis"
+  }
+ },
+ {
+  "id": "ihd",
+  "abbr": "IHD",
+  "full": "Ischemic Heart Disease",
+  "alt": [
+   "Ischaemic Heart Disease"
+  ],
+  "note": "",
+  "ko": "허혈성 심질환",
+  "tags": [
+   "질환·종양"
+  ],
+  "src": {
+   "page": 1,
+   "raw": "Ischemic Heart Disease"
+  }
+ },
+ {
+  "id": "iicp",
+  "abbr": "IICP",
+  "full": "Increased Intracranial Pressure",
+  "alt": [],
+  "note": "",
+  "ko": "두개내압 상승",
+  "tags": [
+   "질환·종양"
+  ],
+  "src": {
+   "page": 1,
+   "raw": "Increased Intracranial Pressure"
+  }
+ },
+ {
+  "id": "ivh",
+  "abbr": "IVH",
+  "full": "Intraventricular Hemorrhage",
+  "alt": [],
+  "note": "",
+  "ko": "뇌실내 출혈",
+  "tags": [
+   "뇌출혈·뇌혈관"
+  ],
+  "src": {
+   "page": 1,
+   "raw": "Intraventricular Hemorrhage"
+  }
+ },
+ {
+  "id": "lp",
+  "abbr": "LP",
+  "full": "Lumbar Puncture",
+  "alt": [],
+  "note": "",
+  "ko": "요추 천자",
+  "tags": [
+   "검사·시술·약물"
+  ],
+  "src": {
+   "page": 1,
+   "raw": "Lumbar Puncture"
+  }
+ },
+ {
+  "id": "mca",
+  "abbr": "MCA",
+  "full": "Middle Cerebral Artery",
+  "alt": [],
+  "note": "",
+  "ko": "중대뇌동맥",
+  "tags": [
+   "해부·기타"
+  ],
+  "src": {
+   "page": 1,
+   "raw": "Middle Cerebral Artery"
+  }
+ },
+ {
+  "id": "mg",
+  "abbr": "MG",
+  "full": "Myasthenia Gravis",
+  "alt": [],
+  "note": "",
+  "ko": "중증 근무력증",
+  "tags": [
+   "질환·종양"
+  ],
+  "src": {
+   "page": 1,
+   "raw": "Myasthenia Gravis"
+  }
+ },
+ {
+  "id": "mgts",
+  "abbr": "Mgts",
+  "full": "Meningitis",
+  "alt": [],
+  "note": "",
+  "ko": "수막염(뇌막염)",
+  "tags": [
+   "질환·종양"
+  ],
+  "src": {
+   "page": 1,
+   "raw": "Meningitis"
+  }
+ },
+ {
+  "id": "mmd",
+  "abbr": "MMD",
+  "full": "Moyamoya Disease",
+  "alt": [],
+  "note": "",
+  "ko": "모야모야병",
+  "tags": [
+   "뇌출혈·뇌혈관"
+  ],
+  "src": {
+   "page": 1,
+   "raw": "Moyamoya Disease"
+  }
+ },
+ {
+  "id": "mng",
+  "abbr": "MNG",
+  "full": "Meningioma",
+  "alt": [],
+  "note": "",
+  "ko": "수막종",
+  "tags": [
+   "질환·종양"
+  ],
+  "src": {
+   "page": 1,
+   "raw": "Meningioma"
+  }
+ },
+ {
+  "id": "ole",
+  "abbr": "OLE",
+  "full": "Occipital Lobe Epilepsy",
+  "alt": [],
+  "note": "",
+  "ko": "후두엽 뇌전증",
+  "tags": [
+   "질환·종양"
+  ],
+  "src": {
+   "page": 1,
+   "raw": "Occipital Lobe Epilepsy"
+  }
+ },
+ {
+  "id": "pa",
+  "abbr": "PA",
+  "full": "Pituitary Adenoma",
+  "alt": [],
+  "note": "",
+  "ko": "뇌하수체 선종",
+  "tags": [
+   "질환·종양"
+  ],
+  "src": {
+   "page": 1,
+   "raw": "Pituitary Adenoma"
+  }
+ },
+ {
+  "id": "pd",
+  "abbr": "PD",
+  "full": "Parkinson's Disease",
+  "alt": [],
+  "note": "",
+  "ko": "파킨슨병",
+  "tags": [
+   "질환·종양"
+  ],
+  "src": {
+   "page": 1,
+   "raw": "Parkinson's Disease"
+  }
+ },
+ {
+  "id": "ple",
+  "abbr": "PLE",
+  "full": "Parietal Lobe Epilepsy",
+  "alt": [],
+  "note": "",
+  "ko": "두정엽 뇌전증",
+  "tags": [
+   "질환·종양"
+  ],
+  "src": {
+   "page": 1,
+   "raw": "Parietal Lobe Epilepsy"
+  }
+ },
+ {
+  "id": "sah",
+  "abbr": "SAH",
+  "full": "Subarachnoid Hemorrhage",
+  "alt": [],
+  "note": "",
+  "ko": "지주막하 출혈(거미막밑 출혈)",
+  "tags": [
+   "뇌출혈·뇌혈관"
+  ],
+  "src": {
+   "page": 1,
+   "raw": "Subarachnoid Hemorrhage"
+  }
+ },
+ {
+  "id": "sdh",
+  "abbr": "SDH",
+  "full": "Subdural Hemorrhage",
+  "alt": [
+   "Subdural Hematoma"
+  ],
+  "note": "",
+  "ko": "경막하 출혈(혈종)",
+  "tags": [
+   "뇌출혈·뇌혈관"
+  ],
+  "src": {
+   "page": 1,
+   "raw": "Subdural Hemorrhage"
+  }
+ },
+ {
+  "id": "s-t",
+  "abbr": "S-T",
+  "full": "Spinal Tapping",
+  "alt": [
+   "Spinal Tap"
+  ],
+  "note": "",
+  "ko": "척수 천자(요추 천자)",
+  "tags": [
+   "검사·시술·약물"
+  ],
+  "src": {
+   "page": 1,
+   "raw": "Spinal Tapping"
+  }
+ },
+ {
+  "id": "sz",
+  "abbr": "SZ",
+  "full": "Seizure",
+  "alt": [],
+  "note": "",
+  "ko": "경련(발작)",
+  "tags": [
+   "질환·종양"
+  ],
+  "src": {
+   "page": 1,
+   "raw": "Seizure"
+  }
+ },
+ {
+  "id": "u-l-ex",
+  "abbr": "U(L)/EX",
+  "full": "Upper (or Lower) Extremities",
+  "alt": [
+   "Upper Extremities",
+   "Lower Extremities",
+   "Upper Extremity",
+   "Lower Extremity",
+   "Upper or Lower Extremities",
+   "Upper Lower Extremities"
+  ],
+  "note": "U/EX = 상지, L/EX = 하지",
+  "ko": "상지(또는 하지)",
+  "tags": [
+   "해부·기타"
+  ],
+  "src": {
+   "page": 1,
+   "raw": "Upper (or Lower) Extremities"
+  }
+ },
+ {
+  "id": "v-a-shunt",
+  "abbr": "V-A Shunt",
+  "full": "Ventriculo-Atrial Shunt",
+  "alt": [],
+  "note": "",
+  "ko": "뇌실-심방 단락술",
+  "tags": [
+   "검사·시술·약물"
+  ],
+  "src": {
+   "page": 1,
+   "raw": "Ventriculo-Atrial Shunt"
+  }
+ },
+ {
+  "id": "v-p-shunt",
+  "abbr": "V-P Shunt",
+  "full": "Ventriculo-Peritoneal Shunt",
+  "alt": [],
+  "note": "",
+  "ko": "뇌실-복강 단락술",
+  "tags": [
+   "검사·시술·약물"
+  ],
+  "src": {
+   "page": 1,
+   "raw": "Ventriculo-Peritoneal Shunt"
+  }
+ }
+]

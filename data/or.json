@@ -1,0 +1,577 @@
+[
+ {
+  "id": "lap-appy",
+  "abbr": "Lap. appy",
+  "full": "Laparoscopic Appendectomy",
+  "alt": [
+   "Laparoscopic Appendicectomy"
+  ],
+  "note": "",
+  "ko": "복강경 충수절제술",
+  "tags": [
+   "일반외과"
+  ],
+  "src": {
+   "page": 1,
+   "raw": "Laparoscopic Appendectomy"
+  }
+ },
+ {
+  "id": "lap-chole",
+  "abbr": "Lap. chole",
+  "full": "Laparoscopic Cholecystectomy",
+  "alt": [],
+  "note": "",
+  "ko": "복강경 담낭절제술",
+  "tags": [
+   "일반외과"
+  ],
+  "src": {
+   "page": 1,
+   "raw": "Laparoscopic Cholecystectomy"
+  }
+ },
+ {
+  "id": "lap-hernia",
+  "abbr": "Lap. hernia",
+  "full": "Laparoscopic Herniorrhaphy",
+  "alt": [
+   "Laparoscopic Hernia Repair"
+  ],
+  "note": "",
+  "ko": "복강경 탈장 봉합(수복)술",
+  "tags": [
+   "일반외과"
+  ],
+  "src": {
+   "page": 1,
+   "raw": "Laparoscopic Herniorrhaphy"
+  }
+ },
+ {
+  "id": "tka",
+  "abbr": "TKA",
+  "full": "Total Knee Arthroplasty",
+  "alt": [],
+  "note": "",
+  "ko": "전슬관절 치환술(인공 무릎관절 치환술)",
+  "tags": [
+   "정형외과"
+  ],
+  "src": {
+   "page": 1,
+   "raw": "Total Knee Arthroplasty"
+  }
+ },
+ {
+  "id": "tha",
+  "abbr": "THA",
+  "full": "Total Hip Arthroplasty",
+  "alt": [],
+  "note": "",
+  "ko": "전고관절 치환술(인공 고관절 치환술)",
+  "tags": [
+   "정형외과"
+  ],
+  "src": {
+   "page": 1,
+   "raw": "Total Hip Arthroplasty"
+  }
+ },
+ {
+  "id": "orif",
+  "abbr": "ORIF",
+  "full": "Open Reduction and Internal Fixation",
+  "alt": [
+   "Open Reduction Internal Fixation"
+  ],
+  "note": "",
+  "ko": "관혈적 정복술 및 내고정술",
+  "tags": [
+   "정형외과"
+  ],
+  "src": {
+   "page": 1,
+   "raw": "Open Reduction and Internal Fixation"
+  }
+ },
+ {
+  "id": "acl-recon",
+  "abbr": "ACL recon",
+  "full": "Anterior Cruciate Ligament Reconstruction",
+  "alt": [],
+  "note": "",
+  "ko": "전방십자인대 재건술",
+  "tags": [
+   "정형외과"
+  ],
+  "src": {
+   "page": 1,
+   "raw": "Anterior Cruciate Ligament Reconstruction"
+  }
+ },
+ {
+  "id": "c-s",
+  "abbr": "C/S",
+  "full": "Cesarean Section",
+  "alt": [
+   "Caesarean Section"
+  ],
+  "note": "",
+  "ko": "제왕절개술",
+  "tags": [
+   "산부인과"
+  ],
+  "src": {
+   "page": 1,
+   "raw": "Cesarean Section"
+  }
+ },
+ {
+  "id": "tah",
+  "abbr": "TAH",
+  "full": "Total Abdominal Hysterectomy",
+  "alt": [],
+  "note": "",
+  "ko": "전 복식 자궁적출술",
+  "tags": [
+   "산부인과"
+  ],
+  "src": {
+   "page": 1,
+   "raw": "Total Abdominal Hysterectomy"
+  }
+ },
+ {
+  "id": "tvh",
+  "abbr": "TVH",
+  "full": "Total Vaginal Hysterectomy",
+  "alt": [],
+  "note": "",
+  "ko": "전 질식 자궁적출술",
+  "tags": [
+   "산부인과"
+  ],
+  "src": {
+   "page": 1,
+   "raw": "Total Vaginal Hysterectomy"
+  }
+ },
+ {
+  "id": "d-c",
+  "abbr": "D&C",
+  "full": "Dilatation and Curettage",
+  "alt": [
+   "Dilation and Curettage"
+  ],
+  "note": "",
+  "ko": "자궁경관 확장 및 소파술",
+  "tags": [
+   "산부인과"
+  ],
+  "src": {
+   "page": 1,
+   "raw": "Dilatation and Curettage"
+  }
+ },
+ {
+  "id": "tlh",
+  "abbr": "TLH",
+  "full": "Total Laparoscopic Hysterectomy",
+  "alt": [],
+  "note": "",
+  "ko": "전 복강경 자궁적출술",
+  "tags": [
+   "산부인과"
+  ],
+  "src": {
+   "page": 1,
+   "raw": "Total Laparoscopic Hysterectomy"
+  }
+ },
+ {
+  "id": "tur-bt",
+  "abbr": "TUR-BT",
+  "full": "Transurethral Resection of Bladder Tumor",
+  "alt": [
+   "Transurethral Resection of Bladder Tumour"
+  ],
+  "note": "",
+  "ko": "경요도 방광종양 절제술",
+  "tags": [
+   "기타"
+  ],
+  "src": {
+   "page": 1,
+   "raw": "Transurethral Resection of Bladder Tumor"
+  }
+ },
+ {
+  "id": "lam",
+  "abbr": "LAM",
+  "full": "Lumbar Laminectomy",
+  "alt": [],
+  "note": "",
+  "ko": "요추 후궁절제술",
+  "tags": [
+   "척추"
+  ],
+  "src": {
+   "page": 1,
+   "raw": "Lumbar Laminectomy"
+  }
+ },
+ {
+  "id": "acdf",
+  "abbr": "ACDF",
+  "full": "Anterior Cervical Discectomy and Fusion",
+  "alt": [],
+  "note": "",
+  "ko": "전방 경추 추간판 절제 및 유합술",
+  "tags": [
+   "척추"
+  ],
+  "src": {
+   "page": 1,
+   "raw": "Anterior Cervical Discectomy and Fusion"
+  }
+ },
+ {
+  "id": "cabg",
+  "abbr": "CABG",
+  "full": "Coronary Artery Bypass Graft",
+  "alt": [
+   "Coronary Artery Bypass Grafting"
+  ],
+  "note": "",
+  "ko": "관상동맥 우회로 이식술",
+  "tags": [
+   "흉부외과"
+  ],
+  "src": {
+   "page": 1,
+   "raw": "Coronary Artery Bypass Graft"
+  }
+ },
+ {
+  "id": "mvr",
+  "abbr": "MVR",
+  "full": "Mitral Valve Replacement",
+  "alt": [],
+  "note": "",
+  "ko": "승모판 치환술",
+  "tags": [
+   "흉부외과"
+  ],
+  "src": {
+   "page": 1,
+   "raw": "Mitral Valve Replacement"
+  }
+ },
+ {
+  "id": "avr",
+  "abbr": "AVR",
+  "full": "Aortic Valve Replacement",
+  "alt": [],
+  "note": "",
+  "ko": "대동맥판 치환술",
+  "tags": [
+   "흉부외과"
+  ],
+  "src": {
+   "page": 1,
+   "raw": "Aortic Valve Replacement"
+  }
+ },
+ {
+  "id": "bka",
+  "abbr": "BKA",
+  "full": "Below Knee Amputation",
+  "alt": [],
+  "note": "",
+  "ko": "슬하 절단술",
+  "tags": [
+   "정형외과"
+  ],
+  "src": {
+   "page": 1,
+   "raw": "Below Knee Amputation"
+  }
+ },
+ {
+  "id": "aka",
+  "abbr": "AKA",
+  "full": "Above Knee Amputation",
+  "alt": [],
+  "note": "",
+  "ko": "슬상 절단술",
+  "tags": [
+   "정형외과"
+  ],
+  "src": {
+   "page": 1,
+   "raw": "Above Knee Amputation"
+  }
+ },
+ {
+  "id": "i-d",
+  "abbr": "I&D",
+  "full": "Incision and Drainage",
+  "alt": [],
+  "note": "",
+  "ko": "절개 및 배농술",
+  "tags": [
+   "기타"
+  ],
+  "src": {
+   "page": 1,
+   "raw": "Incision and Drainage"
+  }
+ },
+ {
+  "id": "lavh",
+  "abbr": "LAVH",
+  "full": "Laparoscopic Assisted Vaginal Hysterectomy",
+  "alt": [
+   "Laparoscopically Assisted Vaginal Hysterectomy"
+  ],
+  "note": "",
+  "ko": "복강경 보조 질식 자궁적출술",
+  "tags": [
+   "산부인과"
+  ],
+  "src": {
+   "page": 1,
+   "raw": "Laparoscopic Assisted Vaginal Hysterectomy"
+  }
+ },
+ {
+  "id": "vats",
+  "abbr": "VATS",
+  "full": "Video Assisted Thoracoscopic Surgery",
+  "alt": [],
+  "note": "",
+  "ko": "비디오 흉강경 수술",
+  "tags": [
+   "흉부외과"
+  ],
+  "src": {
+   "page": 1,
+   "raw": "Video Assisted Thoracoscopic Surgery"
+  }
+ },
+ {
+  "id": "ppf",
+  "abbr": "PPF",
+  "full": "Percutaneous Pedicle Fixation",
+  "alt": [],
+  "note": "",
+  "ko": "경피적 척추경 나사못 고정술",
+  "tags": [
+   "척추"
+  ],
+  "src": {
+   "page": 1,
+   "raw": "Percutaneous Pedicle Fixation"
+  }
+ },
+ {
+  "id": "tlif",
+  "abbr": "TLIF",
+  "full": "Transforaminal Lumbar Interbody Fusion",
+  "alt": [],
+  "note": "",
+  "ko": "후방 추간공 경유 요추 추체간 유합술",
+  "tags": [
+   "척추"
+  ],
+  "src": {
+   "page": 1,
+   "raw": "Transforaminal Lumbar Interbody Fusion"
+  }
+ },
+ {
+  "id": "alif",
+  "abbr": "ALIF",
+  "full": "Anterior Lumbar Interbody Fusion",
+  "alt": [],
+  "note": "",
+  "ko": "전방 요추 추체간 유합술",
+  "tags": [
+   "척추"
+  ],
+  "src": {
+   "page": 1,
+   "raw": "Anterior Lumbar Interbody Fusion"
+  }
+ },
+ {
+  "id": "olif",
+  "abbr": "OLIF",
+  "full": "Oblique Lateral Interbody Fusion",
+  "alt": [],
+  "note": "",
+  "ko": "사측방 요추 추체간 유합술",
+  "tags": [
+   "척추"
+  ],
+  "src": {
+   "page": 1,
+   "raw": "Oblique Lateral Interbody Fusion"
+  }
+ },
+ {
+  "id": "plif",
+  "abbr": "PLIF",
+  "full": "Posterior Lumbar Interbody Fusion",
+  "alt": [],
+  "note": "",
+  "ko": "후방 요추 추체간 유합술",
+  "tags": [
+   "척추"
+  ],
+  "src": {
+   "page": 1,
+   "raw": "Posterior Lumbar Interbody Fusion"
+  }
+ },
+ {
+  "id": "crif",
+  "abbr": "CRIF",
+  "full": "Closed Reduction & Internal Fixation",
+  "alt": [
+   "Closed Reduction Internal Fixation"
+  ],
+  "note": "",
+  "ko": "비관혈적(폐쇄) 정복술 및 내고정술",
+  "tags": [
+   "정형외과"
+  ],
+  "src": {
+   "page": 1,
+   "raw": "Closed Reduction & Internal Fixation"
+  }
+ },
+ {
+  "id": "evd",
+  "abbr": "EVD",
+  "full": "External Ventricular Drainage",
+  "alt": [
+   "External Ventricular Drain"
+  ],
+  "note": "",
+  "ko": "외부 뇌실 배액술",
+  "tags": [
+   "신경외과"
+  ],
+  "src": {
+   "page": 1,
+   "raw": "External Ventricular Drainage"
+  }
+ },
+ {
+  "id": "vp-shunt",
+  "abbr": "VP Shunt",
+  "full": "Ventriculoperitoneal Shunt",
+  "alt": [],
+  "note": "",
+  "ko": "뇌실-복강 단락술",
+  "tags": [
+   "신경외과"
+  ],
+  "src": {
+   "page": 1,
+   "raw": "Ventriculoperitoneal Shunt"
+  }
+ },
+ {
+  "id": "rhc",
+  "abbr": "RHC",
+  "full": "Right Hemicolectomy",
+  "alt": [],
+  "note": "",
+  "ko": "우측 결장 반절제술",
+  "tags": [
+   "일반외과"
+  ],
+  "src": {
+   "page": 1,
+   "raw": "Right Hemicolectomy"
+  }
+ },
+ {
+  "id": "lhc",
+  "abbr": "LHC",
+  "full": "Left Hemicolectomy",
+  "alt": [],
+  "note": "",
+  "ko": "좌측 결장 반절제술",
+  "tags": [
+   "일반외과"
+  ],
+  "src": {
+   "page": 1,
+   "raw": "Left Hemicolectomy"
+  }
+ },
+ {
+  "id": "lar",
+  "abbr": "LAR",
+  "full": "Low Anterior Resection",
+  "alt": [],
+  "note": "",
+  "ko": "저위 전방 절제술",
+  "tags": [
+   "일반외과"
+  ],
+  "src": {
+   "page": 1,
+   "raw": "Low Anterior Resection"
+  }
+ },
+ {
+  "id": "mrm",
+  "abbr": "MRM",
+  "full": "Modified Radical Mastectomy",
+  "alt": [],
+  "note": "",
+  "ko": "변형 근치 유방절제술",
+  "tags": [
+   "일반외과"
+  ],
+  "src": {
+   "page": 1,
+   "raw": "Modified Radical Mastectomy"
+  }
+ },
+ {
+  "id": "slnb",
+  "abbr": "SLNB",
+  "full": "Sentinel Lymph Node Biopsy",
+  "alt": [],
+  "note": "",
+  "ko": "감시림프절 생검",
+  "tags": [
+   "일반외과"
+  ],
+  "src": {
+   "page": 1,
+   "raw": "Sentinel Lymph Node Biopsy"
+  }
+ },
+ {
+  "id": "avf",
+  "abbr": "AVF",
+  "full": "Arteriovenous Fistula",
+  "alt": [],
+  "note": "",
+  "ko": "동정맥루",
+  "tags": [
+   "기타"
+  ],
+  "src": {
+   "page": 1,
+   "raw": "Arteriovenous Fistula"
+  }
+ }
+]

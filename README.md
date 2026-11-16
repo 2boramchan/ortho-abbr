@@ -1,4 +1,4 @@
-# 병동 약어 단어장 · 퀴즈 (정형외과 / 외과 GS)
+# 병동 약어 단어장 · 퀴즈 (정형외과 / GS / NS / OR)
 
 간호대 학생용 의학 약어 암기 웹앱입니다. 과목(단원)별로 따로 공부하고 시험 볼 수 있습니다.
 
@@ -6,8 +6,10 @@
 |---|---|---|---|
 | 정형외과 | 167 | `병동별 약어.pdf` 「정형외과 약어」(9–11쪽) | `#ortho` |
 | 외과(GS) | 30 | 「Essential Medical Abbreviations for GS Wards」 | `#gs` |
+| 신경외과(NS) | 40 | 「2025-2학기 성인간호학 실습2 (NS 용어)」 | `#ns` |
+| 수술장(OR) | 37 | 성인간호학2 실습 「수술장 약어」 | `#or` |
 
-- **과목 전환**: 상단의 `정형외과 | 외과(GS)` 버튼. 진행 상황(Leitner 박스, 외웠어요/헷갈려요)·필터·분류 태그는 과목마다 따로 저장되고, "진행 상황 초기화"도 현재 과목만 지웁니다. 주소 끝에 `#gs`를 붙이면 외과(GS)로 바로 열립니다.
+- **과목 전환**: 상단의 `정형외과 | GS | NS | OR` 버튼. 진행 상황(Leitner 박스, 외웠어요/헷갈려요)·필터·분류 태그는 과목마다 따로 저장되고, "진행 상황 초기화"도 현재 과목만 지웁니다. 주소 끝에 `#gs`, `#ns`, `#or`를 붙이면 그 과목으로 바로 열립니다.
 
 - **단어장(플래시카드)**: 앞면 약어 / 뒷면 풀네임·설명·한글 뜻. "외웠어요 / 헷갈려요" 표시, 셔플
 - **주관식 퀴즈**: 약어를 보고 영어 풀네임 입력. 관대한 채점, 철자 실수 정답 처리, 틀린 문제만 다시
@@ -45,6 +47,8 @@ js/leitner.js    Leitner 박스, 가중치 셔플
 js/store.js      localStorage 래퍼(실패해도 앱은 동작)
 data/ortho.json  정형외과 약어 데이터 167개
 data/gs.json     외과(GS) 약어 데이터 30개
+data/ns.json     신경외과(NS) 약어 데이터 40개
+data/or.json     수술장(OR) 약어 데이터 37개
 data/review.md   원문 오타 의심·한글 뜻 검수 필요 목록
 tests/           채점 함수 테스트(브라우저에서 실행)
 tools/           PDF 추출·데이터 빌드 스크립트
@@ -93,7 +97,7 @@ Node가 있다면 `npx serve .` 도 됩니다.
 
 ## 데이터 수정
 
-`data/gs.json`은 `tools/build_gs.py`의 `ROWS` 표를 고친 뒤 `python3 tools/build_gs.py`로 다시 만듭니다. 새 과목을 추가하려면 같은 형식의 JSON을 만들고 `js/app.js`의 `SUBJECTS`와 `index.html`의 과목 버튼에 한 줄씩 추가하세요.
+`data/gs.json`·`ns.json`·`or.json`은 `tools/build_subjects.py`의 `GS`/`NS`/`OR` 표를 고친 뒤 `python3 tools/build_subjects.py`로 다시 만듭니다. 새 과목을 추가하려면 같은 형식의 JSON을 만들고 `js/app.js`의 `SUBJECTS`와 `index.html`의 과목 버튼에 한 줄씩 추가하세요.
 
 `data/ortho.json`은 `tools/build_data.py`가 생성합니다. 띄어쓰기 수정·note·태그·한글 뜻은 이 스크립트의 표(`OVERRIDES`, `TAGS`, `KO`)에서 고친 뒤 다시 실행하세요.
 

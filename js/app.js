@@ -18,6 +18,18 @@ const SUBJECTS = {
     tags: ['암·종양', '질환·감염', '수술명', '검사·시술', '기타'],
     source: '「Essential Medical Abbreviations for GS Wards」',
   },
+  ns: {
+    name: '신경외과(NS)',
+    file: 'data/ns.json',
+    tags: ['뇌출혈·뇌혈관', '질환·종양', '검사·시술·약물', '해부·기타'],
+    source: '「2025-2학기 성인간호학 실습2 (NS 용어)」',
+  },
+  or: {
+    name: '수술장(OR)',
+    file: 'data/or.json',
+    tags: ['일반외과', '정형외과', '척추', '산부인과', '흉부외과', '신경외과', '기타'],
+    source: '성인간호학2 실습 「수술장 약어」',
+  },
 };
 const SUBJECT_IDS = Object.keys(SUBJECTS);
 const blankFilters = () => ({ status: 'all', range: 'all', tags: [] });
