@@ -1,5 +1,5 @@
 """정형외과 외 과목 데이터 생성: python3 tools/build_subjects.py
-→ data/gs.json, data/ns.json, data/or.json
+→ data/gs.json, data/ns.json, data/or.json, data/ts.json
 각 행: (약어, 풀네임, 한글 뜻, 태그, 대체 정답 목록, note)"""
 import json, re, pathlib
 
@@ -121,8 +121,51 @@ OR = [  # 성인간호학2 실습 수술장 약어 (예전 「수술장 약어 �
   ("AVF", "Arteriovenous Fistula", "동정맥루", "기타", [], ""),
 ]
 
+TS = [  # 「2025-2학기 성인간호학 실습2 (TS 용어)」
+  ("ABGA", "Arterial Blood Gas Analysis", "동맥혈 가스 분석", "검사·수치", ["Arterial Blood Gas"], ""),
+  ("AF(A.fib)", "Atrial Fibrillation", "심방세동", "부정맥", [], "AF = A.fib"),
+  ("AR", "Aortic Regurgitation", "대동맥판 역류(폐쇄부전)", "판막·선천성", ["Aortic Insufficiency"], ""),
+  ("AS", "Aortic Stenosis", "대동맥판 협착", "판막·선천성", [], ""),
+  ("ASD", "Atrial Septal Defect", "심방중격 결손", "판막·선천성", [], ""),
+  ("AVR", "Aortic Valve Replacement", "대동맥판 치환술", "수술·시술", [], ""),
+  ("CABG", "Coronary Artery Bypass Graft", "관상동맥 우회로 이식술", "수술·시술", ["Coronary Artery Bypass Grafting"], ""),
+  ("CAD", "Coronary Artery Disease", "관상동맥 질환", "심장·폐 질환", [], ""),
+  ("CAG", "Coronary Angiography", "관상동맥 조영술", "검사·수치", ["Coronary Angiogram"], ""),
+  ("CBC", "Complete Blood Cell Count", "전혈구 검사", "검사·수치", ["Complete Blood Count"], ""),
+  ("CHD", "Coronary Heart Disease", "관상동맥성 심질환", "심장·폐 질환", ["Coronary Hear Disease"], "원문 표기 \"Coronary hear disease\"(오타)"),
+  ("CHF", "Congestive Heart Failure", "울혈성 심부전", "심장·폐 질환", [], ""),
+  ("COA", "Coarctation of Aorta", "대동맥 축착", "판막·선천성", ["Coarctation of the Aorta"], ""),
+  ("COPD", "Chronic Obstructive Pulmonary Disease", "만성 폐쇄성 폐질환", "심장·폐 질환", [], ""),
+  ("CPB", "Cardiopulmonary Bypass", "심폐 우회술(인공심폐기)", "수술·시술", [], ""),
+  ("CVD", "Cardiovascular Disease", "심혈관 질환", "심장·폐 질환", [], ""),
+  ("CVP", "Central Venous Pressure", "중심정맥압", "검사·수치", [], ""),
+  ("ECG(EKG)", "Electrocardiogram", "심전도", "검사·수치", ["Electrocardiography"], "ECG = EKG"),
+  ("EF", "Ejection Fraction", "박출률(구혈률)", "검사·수치", [], ""),
+  ("ICMP", "Ischemic Cardiomyopathy", "허혈성 심근병증", "심장·폐 질환", ["Ischaemic Cardiomyopathy"], ""),
+  ("LAD", "Left Anterior Descending Artery", "좌전하행 관상동맥", "해부·기타", ["Left Anterior Descending"], ""),
+  ("LCX", "Left Circumflex Artery", "좌회선 관상동맥", "해부·기타", ["Left Circumflex"], ""),
+  ("MR", "Mitral Regurgitation", "승모판 역류(폐쇄부전)", "판막·선천성", ["Mitral Insufficiency"], ""),
+  ("MVR", "Mitral Valve Replacement", "승모판 치환술", "수술·시술", [], ""),
+  ("OHS", "Open Heart Surgery", "개심술", "수술·시술", [], ""),
+  ("PCI", "Percutaneous Coronary Intervention", "경피적 관상동맥 중재술", "수술·시술", [], ""),
+  ("PFT", "Pulmonary Function Test", "폐기능 검사", "검사·수치", [], ""),
+  ("PS", "Pulmonary Stenosis", "폐동맥판 협착", "판막·선천성", ["Pulmonary Valve Stenosis"], ""),
+  ("PVC(VPC)", "Premature Ventricular Contraction", "심실 조기수축", "부정맥", ["Ventricular Premature Contraction"], "PVC = VPC"),
+  ("RUL", "Right Upper Lobe", "우상엽(폐)", "해부·기타", [], ""),
+  ("STEMI", "ST Elevation Myocardial Infarction", "ST 분절 상승 심근경색", "심장·폐 질환", ["ST Segment Elevation Myocardial Infarction"], ""),
+  ("SVC", "Superior Vena Cava", "상대정맥", "해부·기타", [], ""),
+  ("TAVI", "Transcatheter Aortic Valve Implantation", "경피적(경도관) 대동맥판 삽입술", "수술·시술", ["Transcatheter Aortic Valve Replacement"], ""),
+  ("TPL", "Transplantation", "이식(술)", "수술·시술", ["Transplant"], ""),
+  ("TR", "Tricuspid Regurgitation", "삼첨판 역류(폐쇄부전)", "판막·선천성", ["Tricuspid Insufficiency"], ""),
+  ("TTE", "Transthoracic Echocardiography", "경흉부 심초음파", "검사·수치", ["Transthoracic Echocardiogram"], ""),
+  ("VAD", "Ventricular Assist Device", "심실 보조 장치", "수술·시술", [], ""),
+  ("VATS", "Video-Assisted Thoracoscopic Surgery", "비디오 흉강경 수술", "수술·시술", ["Video Assisted Thoracoscopic Surgery"], ""),
+  ("VF(V.fib)", "Ventricular Fibrillation", "심실세동", "부정맥", [], "VF = V.fib"),
+  ("VSD", "Ventricular Septal Defect", "심실중격 결손", "판막·선천성", [], ""),
+]
+
 root = pathlib.Path(__file__).resolve().parent.parent / "data"
-for name, rows in (("gs", GS), ("ns", NS), ("or", OR)):
+for name, rows in (("gs", GS), ("ns", NS), ("or", OR), ("ts", TS)):
     out = [{"id": re.sub(r"[^a-z0-9]+", "-", a.lower()).strip("-"), "abbr": a, "full": f, "alt": alt,
             "note": note, "ko": ko, "tags": [tag], "src": {"page": 1, "raw": f}}
            for a, f, ko, tag, alt, note in rows]

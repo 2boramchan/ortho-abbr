@@ -57,6 +57,8 @@ button kbd { background: transparent; border-color: currentColor; opacity: .7; }
 .top { background: var(--surface); border-bottom: 1px solid var(--border); position: sticky; top: 0; z-index: 5; }
 .top-row { display: flex; align-items: center; justify-content: space-between; padding-top: 12px; padding-bottom: 8px; }
 .top-row { gap: 12px; }
+.subject-row { padding-bottom: 6px; }
+.subjects { max-width: 100%; }
 .subjects {
   display: inline-flex; padding: 3px; gap: 2px; border-radius: 999px;
   background: var(--surface-2); border: 1px solid var(--border); min-width: 0;

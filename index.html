@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>병동 약어</title>
-  <meta name="description" content="간호대 학생을 위한 병동 의학 약어(OS·GS·NS·OR) 단어장과 주관식 퀴즈">
+  <title>성2실습 단어시험</title>
+  <meta name="description" content="간호대 학생을 위한 병동 의학 약어(OS·GS·NS·OR·TS) 단어장과 주관식 퀴즈">
   <meta name="color-scheme" content="light dark">
   <link rel="stylesheet" href="css/style.css">
   <script>
@@ -19,14 +19,17 @@
 <body>
   <header class="top">
     <div class="wrap top-row">
-      <h1 class="sr-only">병동 약어</h1>
+      <h1>성2실습 단어시험</h1>
+      <button id="theme" class="ghost small" type="button" aria-label="테마 전환">테마: 자동</button>
+    </div>
+    <div class="wrap subject-row">
       <div class="subjects" id="subjects" role="group" aria-label="과목">
         <button type="button" data-subject="ortho" aria-pressed="true" aria-label="정형외과(OS)">OS</button>
         <button type="button" data-subject="gs" aria-pressed="false" aria-label="외과(GS)">GS</button>
         <button type="button" data-subject="ns" aria-pressed="false" aria-label="신경외과(NS)">NS</button>
         <button type="button" data-subject="or" aria-pressed="false" aria-label="수술장(OR)">OR</button>
+        <button type="button" data-subject="ts" aria-pressed="false" aria-label="흉부외과(TS)">TS</button>
       </div>
-      <button id="theme" class="ghost small" type="button" aria-label="테마 전환">테마: 자동</button>
     </div>
     <div class="wrap">
       <nav class="tabs" role="tablist" aria-label="학습 모드">

@@ -30,6 +30,12 @@ const SUBJECTS = {
     tags: ['일반외과', '정형외과', '척추', '산부인과', '흉부외과', '신경외과', '기타'],
     source: '성인간호학2 실습 「수술장 약어」',
   },
+  ts: {
+    name: '흉부외과(TS)',
+    file: 'data/ts.json',
+    tags: ['심장·폐 질환', '판막·선천성', '부정맥', '수술·시술', '검사·수치', '해부·기타'],
+    source: '「2025-2학기 성인간호학 실습2 (TS 용어)」',
+  },
 };
 const SUBJECT_IDS = Object.keys(SUBJECTS);
 const blankFilters = () => ({ status: 'all', range: 'all', tags: [] });
@@ -501,7 +507,7 @@ function renderSubjects() {
     b.setAttribute('aria-pressed', String(b.dataset.subject === S.subject));
   }
   const sub = SUBJECTS[S.subject];
-  document.title = `${sub.name} 약어`;
+  document.title = `성2실습 단어시험 · ${sub.name}`;
   $('source').textContent = `출처: ${sub.source} ${S.data.length || ''}개 · 진행 상황은 이 브라우저에만 저장돼요.`;
 }
 

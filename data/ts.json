@@ -1,0 +1,642 @@
+[
+ {
+  "id": "abga",
+  "abbr": "ABGA",
+  "full": "Arterial Blood Gas Analysis",
+  "alt": [
+   "Arterial Blood Gas"
+  ],
+  "note": "",
+  "ko": "동맥혈 가스 분석",
+  "tags": [
+   "검사·수치"
+  ],
+  "src": {
+   "page": 1,
+   "raw": "Arterial Blood Gas Analysis"
+  }
+ },
+ {
+  "id": "af-a-fib",
+  "abbr": "AF(A.fib)",
+  "full": "Atrial Fibrillation",
+  "alt": [],
+  "note": "AF = A.fib",
+  "ko": "심방세동",
+  "tags": [
+   "부정맥"
+  ],
+  "src": {
+   "page": 1,
+   "raw": "Atrial Fibrillation"
+  }
+ },
+ {
+  "id": "ar",
+  "abbr": "AR",
+  "full": "Aortic Regurgitation",
+  "alt": [
+   "Aortic Insufficiency"
+  ],
+  "note": "",
+  "ko": "대동맥판 역류(폐쇄부전)",
+  "tags": [
+   "판막·선천성"
+  ],
+  "src": {
+   "page": 1,
+   "raw": "Aortic Regurgitation"
+  }
+ },
+ {
+  "id": "as",
+  "abbr": "AS",
+  "full": "Aortic Stenosis",
+  "alt": [],
+  "note": "",
+  "ko": "대동맥판 협착",
+  "tags": [
+   "판막·선천성"
+  ],
+  "src": {
+   "page": 1,
+   "raw": "Aortic Stenosis"
+  }
+ },
+ {
+  "id": "asd",
+  "abbr": "ASD",
+  "full": "Atrial Septal Defect",
+  "alt": [],
+  "note": "",
+  "ko": "심방중격 결손",
+  "tags": [
+   "판막·선천성"
+  ],
+  "src": {
+   "page": 1,
+   "raw": "Atrial Septal Defect"
+  }
+ },
+ {
+  "id": "avr",
+  "abbr": "AVR",
+  "full": "Aortic Valve Replacement",
+  "alt": [],
+  "note": "",
+  "ko": "대동맥판 치환술",
+  "tags": [
+   "수술·시술"
+  ],
+  "src": {
+   "page": 1,
+   "raw": "Aortic Valve Replacement"
+  }
+ },
+ {
+  "id": "cabg",
+  "abbr": "CABG",
+  "full": "Coronary Artery Bypass Graft",
+  "alt": [
+   "Coronary Artery Bypass Grafting"
+  ],
+  "note": "",
+  "ko": "관상동맥 우회로 이식술",
+  "tags": [
+   "수술·시술"
+  ],
+  "src": {
+   "page": 1,
+   "raw": "Coronary Artery Bypass Graft"
+  }
+ },
+ {
+  "id": "cad",
+  "abbr": "CAD",
+  "full": "Coronary Artery Disease",
+  "alt": [],
+  "note": "",
+  "ko": "관상동맥 질환",
+  "tags": [
+   "심장·폐 질환"
+  ],
+  "src": {
+   "page": 1,
+   "raw": "Coronary Artery Disease"
+  }
+ },
+ {
+  "id": "cag",
+  "abbr": "CAG",
+  "full": "Coronary Angiography",
+  "alt": [
+   "Coronary Angiogram"
+  ],
+  "note": "",
+  "ko": "관상동맥 조영술",
+  "tags": [
+   "검사·수치"
+  ],
+  "src": {
+   "page": 1,
+   "raw": "Coronary Angiography"
+  }
+ },
+ {
+  "id": "cbc",
+  "abbr": "CBC",
+  "full": "Complete Blood Cell Count",
+  "alt": [
+   "Complete Blood Count"
+  ],
+  "note": "",
+  "ko": "전혈구 검사",
+  "tags": [
+   "검사·수치"
+  ],
+  "src": {
+   "page": 1,
+   "raw": "Complete Blood Cell Count"
+  }
+ },
+ {
+  "id": "chd",
+  "abbr": "CHD",
+  "full": "Coronary Heart Disease",
+  "alt": [
+   "Coronary Hear Disease"
+  ],
+  "note": "원문 표기 \"Coronary hear disease\"(오타)",
+  "ko": "관상동맥성 심질환",
+  "tags": [
+   "심장·폐 질환"
+  ],
+  "src": {
+   "page": 1,
+   "raw": "Coronary Heart Disease"
+  }
+ },
+ {
+  "id": "chf",
+  "abbr": "CHF",
+  "full": "Congestive Heart Failure",
+  "alt": [],
+  "note": "",
+  "ko": "울혈성 심부전",
+  "tags": [
+   "심장·폐 질환"
+  ],
+  "src": {
+   "page": 1,
+   "raw": "Congestive Heart Failure"
+  }
+ },
+ {
+  "id": "coa",
+  "abbr": "COA",
+  "full": "Coarctation of Aorta",
+  "alt": [
+   "Coarctation of the Aorta"
+  ],
+  "note": "",
+  "ko": "대동맥 축착",
+  "tags": [
+   "판막·선천성"
+  ],
+  "src": {
+   "page": 1,
+   "raw": "Coarctation of Aorta"
+  }
+ },
+ {
+  "id": "copd",
+  "abbr": "COPD",
+  "full": "Chronic Obstructive Pulmonary Disease",
+  "alt": [],
+  "note": "",
+  "ko": "만성 폐쇄성 폐질환",
+  "tags": [
+   "심장·폐 질환"
+  ],
+  "src": {
+   "page": 1,
+   "raw": "Chronic Obstructive Pulmonary Disease"
+  }
+ },
+ {
+  "id": "cpb",
+  "abbr": "CPB",
+  "full": "Cardiopulmonary Bypass",
+  "alt": [],
+  "note": "",
+  "ko": "심폐 우회술(인공심폐기)",
+  "tags": [
+   "수술·시술"
+  ],
+  "src": {
+   "page": 1,
+   "raw": "Cardiopulmonary Bypass"
+  }
+ },
+ {
+  "id": "cvd",
+  "abbr": "CVD",
+  "full": "Cardiovascular Disease",
+  "alt": [],
+  "note": "",
+  "ko": "심혈관 질환",
+  "tags": [
+   "심장·폐 질환"
+  ],
+  "src": {
+   "page": 1,
+   "raw": "Cardiovascular Disease"
+  }
+ },
+ {
+  "id": "cvp",
+  "abbr": "CVP",
+  "full": "Central Venous Pressure",
+  "alt": [],
+  "note": "",
+  "ko": "중심정맥압",
+  "tags": [
+   "검사·수치"
+  ],
+  "src": {
+   "page": 1,
+   "raw": "Central Venous Pressure"
+  }
+ },
+ {
+  "id": "ecg-ekg",
+  "abbr": "ECG(EKG)",
+  "full": "Electrocardiogram",
+  "alt": [
+   "Electrocardiography"
+  ],
+  "note": "ECG = EKG",
+  "ko": "심전도",
+  "tags": [
+   "검사·수치"
+  ],
+  "src": {
+   "page": 1,
+   "raw": "Electrocardiogram"
+  }
+ },
+ {
+  "id": "ef",
+  "abbr": "EF",
+  "full": "Ejection Fraction",
+  "alt": [],
+  "note": "",
+  "ko": "박출률(구혈률)",
+  "tags": [
+   "검사·수치"
+  ],
+  "src": {
+   "page": 1,
+   "raw": "Ejection Fraction"
+  }
+ },
+ {
+  "id": "icmp",
+  "abbr": "ICMP",
+  "full": "Ischemic Cardiomyopathy",
+  "alt": [
+   "Ischaemic Cardiomyopathy"
+  ],
+  "note": "",
+  "ko": "허혈성 심근병증",
+  "tags": [
+   "심장·폐 질환"
+  ],
+  "src": {
+   "page": 1,
+   "raw": "Ischemic Cardiomyopathy"
+  }
+ },
+ {
+  "id": "lad",
+  "abbr": "LAD",
+  "full": "Left Anterior Descending Artery",
+  "alt": [
+   "Left Anterior Descending"
+  ],
+  "note": "",
+  "ko": "좌전하행 관상동맥",
+  "tags": [
+   "해부·기타"
+  ],
+  "src": {
+   "page": 1,
+   "raw": "Left Anterior Descending Artery"
+  }
+ },
+ {
+  "id": "lcx",
+  "abbr": "LCX",
+  "full": "Left Circumflex Artery",
+  "alt": [
+   "Left Circumflex"
+  ],
+  "note": "",
+  "ko": "좌회선 관상동맥",
+  "tags": [
+   "해부·기타"
+  ],
+  "src": {
+   "page": 1,
+   "raw": "Left Circumflex Artery"
+  }
+ },
+ {
+  "id": "mr",
+  "abbr": "MR",
+  "full": "Mitral Regurgitation",
+  "alt": [
+   "Mitral Insufficiency"
+  ],
+  "note": "",
+  "ko": "승모판 역류(폐쇄부전)",
+  "tags": [
+   "판막·선천성"
+  ],
+  "src": {
+   "page": 1,
+   "raw": "Mitral Regurgitation"
+  }
+ },
+ {
+  "id": "mvr",
+  "abbr": "MVR",
+  "full": "Mitral Valve Replacement",
+  "alt": [],
+  "note": "",
+  "ko": "승모판 치환술",
+  "tags": [
+   "수술·시술"
+  ],
+  "src": {
+   "page": 1,
+   "raw": "Mitral Valve Replacement"
+  }
+ },
+ {
+  "id": "ohs",
+  "abbr": "OHS",
+  "full": "Open Heart Surgery",
+  "alt": [],
+  "note": "",
+  "ko": "개심술",
+  "tags": [
+   "수술·시술"
+  ],
+  "src": {
+   "page": 1,
+   "raw": "Open Heart Surgery"
+  }
+ },
+ {
+  "id": "pci",
+  "abbr": "PCI",
+  "full": "Percutaneous Coronary Intervention",
+  "alt": [],
+  "note": "",
+  "ko": "경피적 관상동맥 중재술",
+  "tags": [
+   "수술·시술"
+  ],
+  "src": {
+   "page": 1,
+   "raw": "Percutaneous Coronary Intervention"
+  }
+ },
+ {
+  "id": "pft",
+  "abbr": "PFT",
+  "full": "Pulmonary Function Test",
+  "alt": [],
+  "note": "",
+  "ko": "폐기능 검사",
+  "tags": [
+   "검사·수치"
+  ],
+  "src": {
+   "page": 1,
+   "raw": "Pulmonary Function Test"
+  }
+ },
+ {
+  "id": "ps",
+  "abbr": "PS",
+  "full": "Pulmonary Stenosis",
+  "alt": [
+   "Pulmonary Valve Stenosis"
+  ],
+  "note": "",
+  "ko": "폐동맥판 협착",
+  "tags": [
+   "판막·선천성"
+  ],
+  "src": {
+   "page": 1,
+   "raw": "Pulmonary Stenosis"
+  }
+ },
+ {
+  "id": "pvc-vpc",
+  "abbr": "PVC(VPC)",
+  "full": "Premature Ventricular Contraction",
+  "alt": [
+   "Ventricular Premature Contraction"
+  ],
+  "note": "PVC = VPC",
+  "ko": "심실 조기수축",
+  "tags": [
+   "부정맥"
+  ],
+  "src": {
+   "page": 1,
+   "raw": "Premature Ventricular Contraction"
+  }
+ },
+ {
+  "id": "rul",
+  "abbr": "RUL",
+  "full": "Right Upper Lobe",
+  "alt": [],
+  "note": "",
+  "ko": "우상엽(폐)",
+  "tags": [
+   "해부·기타"
+  ],
+  "src": {
+   "page": 1,
+   "raw": "Right Upper Lobe"
+  }
+ },
+ {
+  "id": "stemi",
+  "abbr": "STEMI",
+  "full": "ST Elevation Myocardial Infarction",
+  "alt": [
+   "ST Segment Elevation Myocardial Infarction"
+  ],
+  "note": "",
+  "ko": "ST 분절 상승 심근경색",
+  "tags": [
+   "심장·폐 질환"
+  ],
+  "src": {
+   "page": 1,
+   "raw": "ST Elevation Myocardial Infarction"
+  }
+ },
+ {
+  "id": "svc",
+  "abbr": "SVC",
+  "full": "Superior Vena Cava",
+  "alt": [],
+  "note": "",
+  "ko": "상대정맥",
+  "tags": [
+   "해부·기타"
+  ],
+  "src": {
+   "page": 1,
+   "raw": "Superior Vena Cava"
+  }
+ },
+ {
+  "id": "tavi",
+  "abbr": "TAVI",
+  "full": "Transcatheter Aortic Valve Implantation",
+  "alt": [
+   "Transcatheter Aortic Valve Replacement"
+  ],
+  "note": "",
+  "ko": "경피적(경도관) 대동맥판 삽입술",
+  "tags": [
+   "수술·시술"
+  ],
+  "src": {
+   "page": 1,
+   "raw": "Transcatheter Aortic Valve Implantation"
+  }
+ },
+ {
+  "id": "tpl",
+  "abbr": "TPL",
+  "full": "Transplantation",
+  "alt": [
+   "Transplant"
+  ],
+  "note": "",
+  "ko": "이식(술)",
+  "tags": [
+   "수술·시술"
+  ],
+  "src": {
+   "page": 1,
+   "raw": "Transplantation"
+  }
+ },
+ {
+  "id": "tr",
+  "abbr": "TR",
+  "full": "Tricuspid Regurgitation",
+  "alt": [
+   "Tricuspid Insufficiency"
+  ],
+  "note": "",
+  "ko": "삼첨판 역류(폐쇄부전)",
+  "tags": [
+   "판막·선천성"
+  ],
+  "src": {
+   "page": 1,
+   "raw": "Tricuspid Regurgitation"
+  }
+ },
+ {
+  "id": "tte",
+  "abbr": "TTE",
+  "full": "Transthoracic Echocardiography",
+  "alt": [
+   "Transthoracic Echocardiogram"
+  ],
+  "note": "",
+  "ko": "경흉부 심초음파",
+  "tags": [
+   "검사·수치"
+  ],
+  "src": {
+   "page": 1,
+   "raw": "Transthoracic Echocardiography"
+  }
+ },
+ {
+  "id": "vad",
+  "abbr": "VAD",
+  "full": "Ventricular Assist Device",
+  "alt": [],
+  "note": "",
+  "ko": "심실 보조 장치",
+  "tags": [
+   "수술·시술"
+  ],
+  "src": {
+   "page": 1,
+   "raw": "Ventricular Assist Device"
+  }
+ },
+ {
+  "id": "vats",
+  "abbr": "VATS",
+  "full": "Video-Assisted Thoracoscopic Surgery",
+  "alt": [
+   "Video Assisted Thoracoscopic Surgery"
+  ],
+  "note": "",
+  "ko": "비디오 흉강경 수술",
+  "tags": [
+   "수술·시술"
+  ],
+  "src": {
+   "page": 1,
+   "raw": "Video-Assisted Thoracoscopic Surgery"
+  }
+ },
+ {
+  "id": "vf-v-fib",
+  "abbr": "VF(V.fib)",
+  "full": "Ventricular Fibrillation",
+  "alt": [],
+  "note": "VF = V.fib",
+  "ko": "심실세동",
+  "tags": [
+   "부정맥"
+  ],
+  "src": {
+   "page": 1,
+   "raw": "Ventricular Fibrillation"
+  }
+ },
+ {
+  "id": "vsd",
+  "abbr": "VSD",
+  "full": "Ventricular Septal Defect",
+  "alt": [],
+  "note": "",
+  "ko": "심실중격 결손",
+  "tags": [
+   "판막·선천성"
+  ],
+  "src": {
+   "page": 1,
+   "raw": "Ventricular Septal Defect"
+  }
+ }
+]
