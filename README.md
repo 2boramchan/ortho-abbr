@@ -4,7 +4,7 @@
 
 | 과목 | 개수 | 출처 | 바로가기 |
 |---|---|---|---|
-| 정형외과(OS) | 167 | `병동별 약어.pdf` 「정형외과 약어」(9–11쪽) | `#ortho` |
+| 정형외과(OS) | 55 | 「정형외과 약어 정리」 표 | `#ortho` |
 | 외과(GS) | 30 | 「Essential Medical Abbreviations for GS Wards」 | `#gs` |
 | 신경외과(NS) | 40 | 「2025-2학기 성인간호학 실습2 (NS 용어)」 | `#ns` |
 | 수술장(OR) | 37 | 성인간호학2 실습 「수술장 약어」 | `#or` |
@@ -34,7 +34,7 @@
 - 대소문자, 공백, 하이픈, 마침표, 아포스트로피, 괄호, 악센트(é) 무시
 - `&` 와 `and` 동일
 - `alt`에 있는 원문 표기·대체 표기도 정답
-- 동음 약어(PF, RP, TA)는 뜻 중 하나만 맞으면 정답, 정답 공개 시 모든 뜻 표시
+- 같은 약어에 뜻이 여러 개면 하나만 맞아도 정답, 정답 공개 시 모든 뜻 표시
 - 12글자당 1자 이내 차이는 "아깝다! 철자가 조금 달라요"로 안내. 오답일 때는 언제나 "철자만 틀렸어요, 정답 처리" 버튼으로 정답 처리 가능
 
 ## 폴더 구조
@@ -46,7 +46,7 @@ js/app.js        화면·상태 관리
 js/grade.js      채점(정규화, 편집 거리)
 js/leitner.js    Leitner 박스, 가중치 셔플
 js/store.js      localStorage 래퍼(실패해도 앱은 동작)
-data/ortho.json  정형외과 약어 데이터 167개
+data/ortho.json  정형외과 약어 데이터 55개
 data/gs.json     외과(GS) 약어 데이터 30개
 data/ns.json     신경외과(NS) 약어 데이터 40개
 data/or.json     수술장(OR) 약어 데이터 37개
@@ -101,7 +101,7 @@ Node가 있다면 `npx serve .` 도 됩니다.
 
 `data/gs.json`·`ns.json`·`or.json`·`ts.json`은 `tools/build_subjects.py`의 `GS`/`NS`/`OR`/`TS` 표를 고친 뒤 `python3 tools/build_subjects.py`로 다시 만듭니다. 새 과목을 추가하려면 같은 형식의 JSON을 만들고 `js/app.js`의 `SUBJECTS`와 `index.html`의 과목 버튼에 한 줄씩 추가하세요.
 
-`data/ortho.json`은 `tools/build_data.py`가 생성합니다. 띄어쓰기 수정·note·태그·한글 뜻은 이 스크립트의 표(`OVERRIDES`, `TAGS`, `KO`)에서 고친 뒤 다시 실행하세요.
+`data/ortho.json`은 `tools/build_data.py`가 생성합니다(PDF 167개 중 `KEEP` 표의 55개만 남김). 띄어쓰기 수정·note·태그·한글 뜻은 이 스크립트의 표(`OVERRIDES`, `TAGS`, `KO`)에서 고친 뒤 다시 실행하세요.
 
 ```bash
 python3 tools/build_data.py

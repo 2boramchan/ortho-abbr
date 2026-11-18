@@ -1,8 +1,10 @@
 // 채점 함수 테스트. tests/index.html 에서 실행(브라우저 또는 헤드리스 Chrome).
 import { grade, normalize } from '../js/grade.js';
 
+// 채점 케이스는 거르기 전 167개(fixture)로, 데이터 무결성은 실제 앱 데이터(55개)로 검사
+const fixture = await (await fetch('fixture_ortho167.json')).json();
 const data = await (await fetch('../data/ortho.json')).json();
-const by = (abbr) => data.filter((e) => e.abbr === abbr);
+const by = (abbr) => fixture.filter((e) => e.abbr === abbr);
 
 const cases = [
   // [설명, 약어, 입력, 기대 status]
@@ -63,10 +65,12 @@ nchecks.forEach(([a, b], i) => {
 // 데이터 무결성
 const dupes = Object.entries(data.reduce((m, e) => ((m[e.abbr] = (m[e.abbr] || 0) + 1), m), {})).filter(([, n]) => n > 1);
 const integrity = [
-  ['항목 수 167', data.length === 167],
+  ['fixture 항목 수 167', fixture.length === 167],
+  ['항목 수 55', data.length === 55],
   ['id 고유', new Set(data.map((e) => e.id)).size === data.length],
   ['모든 항목에 태그', data.every((e) => e.tags.length === 1)],
-  ['동음 약어 = PF, RP, TA', dupes.map(([a]) => a).sort().join() === 'PF,RP,TA'],
+  ['동음 약어 없음', dupes.length === 0],
+  ['CRIF·ORIF 표기', ['C/R & I/F (CRIF)', 'O/R & I/F (ORIF)'].every((a) => data.some((e) => e.abbr === a))],
 ];
 for (const [d, ok] of integrity) { if (!ok) fail++; rows.push(`${ok ? 'PASS' : 'FAIL'}  데이터: ${d}`); }
 

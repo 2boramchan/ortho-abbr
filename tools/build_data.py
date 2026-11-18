@@ -139,6 +139,39 @@ if unused:
 ids = [i["id"] for i in items]
 assert len(ids) == len(set(ids)), "id 중복"
 
+# 채점 테스트용: 거르기 전 167개 전체(동음 약어·특수 표기 케이스가 많음)
+(ROOT / "tests" / "fixture_ortho167.json").write_text(json.dumps(items, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+
+# 실습 배부 「정형외과 약어 정리」 표(55개)에 있는 것만 남긴다. 값 = (화면 약어, 표 풀네임 표기)
+KEEP = {
+    "ACL": None, "AK": None, "Ant. Fusion": None, "AVN": None, "BG": None, "BK": None, "Bx": None,
+    "C/R & I/F": ("C/R & I/F (CRIF)", None), "CIC": None, "COM": ("COM", "Chronic osteomyelitis"),
+    "CPM": None, "CRPS": None, "CTS": None, "DA": None, "DDH": None, "DEXA": None, "DF": None,
+    "DJD": None, "DPA": None, "DTR": None, "EB": ("EB", "Elastic Bandage"), "EBL": None, "EHL": None,
+    "FBR": None, "Fx": None, "G-enema": ("G-enema", "Glycerin enema"), "H-vac": None, "I & D": None,
+    "L/E": None, "LBP": None, "LCL": None, "LM": None, "MCL": None, "MM": None, "OA": None, "OCD": None,
+    "O/R & I/F": ("O/R & I/F (ORIF)", None), "OSA": None, "PCA": ("PCA", "Patient Controlled Analgesia"),
+    "PCL": None, "PLIF": None, "Post. Fusion": None, "PTx": None, "RA": None, "RCT": None, "ROM": None,
+    "SMC": None, "SS": None, "TA#1": ("TA", "Traffic Accident"), "THRA": None, "TKRA": None, "TSRA": None,
+    "U/E": ("U/E", "Upper Extremity"), "UDS": ("UDS", "Urodynamic Study"), "W/A": None,
+}
+RETAG = {"EB": "검사·치료", "W/A": "검사·치료"}  # 깁스·보조기 분류가 2개뿐이라 합침
+kept = []
+for i in items:
+    key = f"{i['abbr']}#{i['id'].rsplit('-',1)[1]}" if counts[i["abbr"]] > 1 else i["abbr"]
+    if key not in KEEP:
+        continue
+    if KEEP[key]:
+        abbr, full = KEEP[key]
+        i["abbr"] = abbr
+        if full and full != i["full"]:
+            i["alt"] = list(dict.fromkeys([i["full"], *i["alt"]]))
+            i["full"] = full
+    i["tags"] = [RETAG.get(i["abbr"], i["tags"][0])]
+    kept.append(i)
+assert len(kept) == len(KEEP), (len(kept), len(KEEP))
+items = kept
+
 out = ROOT / "data" / "ortho.json"
 out.write_text(json.dumps(items, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
 print(len(items), "items ->", out)
